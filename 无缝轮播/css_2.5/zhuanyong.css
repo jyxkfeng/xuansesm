@@ -1,0 +1,106 @@
+/*首页头部的内联样式*/
+.sj_zhuan .sjz_n ul li a img{
+        height: 145px;
+        width: 237px;
+    }
+    .sjz_con{
+        text-align: center;
+    }
+    .sj_zhuan .sjz_t {
+          text-align: left;
+          background: url(../images_2.5/newIndex/bg_zt2.jpg) no-repeat 10px center;
+          width: 1008px;
+          height: 52px;
+          font-size: 16px;
+          font-weight: bold;
+          color: #151515;
+          padding:0 10px;
+          border-bottom: 1px solid #ededed;
+    }
+    .sj_youxi .sjyx_l .sjyx_lt .sjyx_ltz {
+        text-align: left;
+        background: url(../images_2.5/newIndex/bg_zt3.jpg) no-repeat 0 center;
+        width: 680px;
+        height: 52px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #151515;
+        border-bottom: 1px solid #ededed;
+        line-height: 52px;
+    }
+    .sj_youxi .sjyx_r .sjyx_rt {
+        text-align: left;
+        background: url(../images_2.5/newIndex/bg_zt1.jpg) no-repeat 0 center;
+        width: 275px;
+        height: 52px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #151515;
+        border-bottom: 1px solid #ededed;
+        line-height: 52px;
+    }
+    .sj_zhuan{
+        background-color:#fff;
+    }
+
+/*图片无缝滚动*/
+    #wufeng{
+                width:1008px;
+                margin: 0px auto;
+                height: 490px;
+                overflow:hidden;
+                position: relative;
+                text-align: center;
+
+            }
+            #wufeng ul{
+                
+                padding: 0;
+                margin:0;
+
+            }
+            #wufeng ul li{
+                float: left;
+                list-style: none;
+                width:1008px;
+                overflow: hidden;
+                height: 490px;
+            }
+            #wufeng .dots{
+                position: absolute;
+                bottom: 20px;
+                left: 0;
+                right: 0;
+                z-index: 10;
+            }
+            #wufeng .dots{
+                -webkit-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+-moz-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+-ms-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+-o-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+            }
+            
+            #wufeng .dots li{
+                    display: inline-block;
+                    width: 10px;
+                    height: 10px;
+                    background: #dedede;
+                    margin: 0 4px;
+                    text-indent: -999em;
+                    border: 2px solid #fff;
+                    border-radius: 6px;
+                    cursor: pointer;
+                    opacity: 0.4;
+                    *filter:alpha(opacity=40);
+                    -webkit-transition: background .5s, opacity .5s;
+                    -moz-transition: background .5s, opacity .5s;
+                    transition: background .5s, opacity .5s;
+                    -o-transition: background .5s, opacity .5s;
+                    -ms-transition: background .5s, opacity .5s;
+                }
+                #wufeng .dots li.active{
+                background-color: #fff;
+                opacity: 1;
+            }
+    /*图片无缝滚动*/

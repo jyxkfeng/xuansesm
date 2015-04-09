@@ -1,0 +1,59 @@
+
+
+
+
+.uitable{ width:1200px;  margin:0 auto; background:#fefefe; min-height:350px; }
+
+.uipointtag{ width:1170px; height:36px; border-bottom:1px solid #e7e6e6; margin:0px auto; padding-top:14px;}
+.uipointtag a{ width:115px; height:35px; background:url(../images_2.5/pointtgbg.fw.png) center bottom; display:inline-block; text-align: center; line-height:35px; margin-top:1px;}
+.uipointtag a.hover,.uipointtag a:hover{ background-position: center top; color:#FFF;}
+.uitable dl.uipointtitle{ width:1170px; height:38px; margin:0 auto; background:url(../images_2.5/pointbg1.fw.png) repeat-x;}
+.uitable dl dt{ float:left; height:38px; line-height:38px; text-align:center;}
+.uitable dl dt.dt1{ width:250px; text-align:left; padding-left:60px;}
+.uitable dl dt.dt2{ width:260px;}
+.uitable .body{ width:1170px;  margin:0 auto;}
+.tuijian ul{ float:left;}
+.uitable .body ul{ width:505px; height:56px; border-bottom:1px dashed #e8e8e8; margin-left:40px; margin-right:40px; }
+.uitable .body ul  li{ float:left; height:55px; line-height:55px; text-align:center;font-family:"宋体";font-size:12px;}
+.uitable .body ul  li.add{color:rgb(215,35,13);}
+.uitable .body ul  li.dec{color:#0C3;}
+.uitable .body ul .li1{ width:260px; text-align:left; padding-left:15px; font-size:14px;}
+.uitable .body ul .li1 span{ height:40px; float:left;}
+.uitable .body ul .li1 span.t1{ padding-left:10px; width:210px;line-height:14px; padding-top:15px;}
+.uitable .body ul .li1 span img{ padding-top:7px;}
+.uitable .body ul .li2{ width:140px; font-size:22px;font-weight:bold;}
+.uitable .body ul .li3{  width:205px;color:rgb(186,186,186);}
+.uitable .body ul .li4{  width:295px;color:rgb(137,137,137);line-height:14px; padding-top:15px; height:40px;}
+.pointpage{ height:28px; width:650px; margin:0 auto;font-family:"宋体";font-size:12px;color:rgb(101,101,101); text-align:center;margin-top: 20px;}
+.pointpage a,.pointpage b{
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    border: 1px solid #eaeaea;
+    background-color: #fcfcfc;
+    color: #c5c5c5;
+    font-family: airal;
+    font-size: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.pointpage a:hover,.pointpage b:hover,.pointpage b{
+    background-color: #cc251b;
+    color: #ffffff;
+    border: 1px solid #cc251b;
+}
+
+.uitable .menus{ width:1160px; padding-left:40px;  margin:0 auto; background:#f2f2f2; height:35px; line-height:35px; border-bottom:1px solid #e7e6e6; }
+.uitable .menus a{ padding-left:20px; padding-right:20px; float:left; font-size:12px;}
+.uitable .menus em{ float:left; color:#dcdcdc;}
+.uitable .menus a.dh{border-right:none; float:right; padding-left:12px; padding-right:12px; background:url(../images_2.5/dhborder.png) center center no-repeat; margin-right:20px; color:#d92b17;}
+.uitable .tt{ height:35px; width:660px; border-bottom:1px dashed #dcdcdc; line-height:35px; font-family:"宋体"; font-size:14px; color:#000000; margin-left:15px; margin-top:25px;}
+.uitable .bd p{ line-height:26px; font-size:12px; color:#6b6b6b; padding-top:10px; margin-left:15px;}
+.uitable .bd { position:relative;}
+.uitable .bd input{ width:213px; height:35px; background:#fbfaf9; border:1px solid #c9c9c9;margin-left:15px; margin-top:10px; color:#a5a6a5; float:left;}
+.uitable .bd .dh-submit{ width:58px; height:30px; background:url(../images_2.5/dhsubmit.png);float:left; margin-left:10px; margin-top:12px; color:#FFF; text-align:center; line-height:25px;}
+.uitable .bd span{width:156px; height:15px; position:absolute; left:25px; top:20px;}
+#popup_ok{ width:70px; height:35px; line-height:35px;}
+#popup_cancel{width:70px; height:35px; line-height:35px;}

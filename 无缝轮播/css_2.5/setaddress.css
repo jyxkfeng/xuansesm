@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+.clearme:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+
+* html .clearme {height: 1%;}
+ins{ display:none;}
+.m-right0{margin-right:0px !important;}
+.m-top20{ margin-top:20px;}
+.m-right36{margin-right:36px;}
+.m-top37{margin-top:37px;}
+
+/* 任务公用按钮*/
+
+.mession-bt a{ height:22px; display:block; visibility:hidden; margin-top:10px;}
+.mession-bt a span{ float:left;}
+.mession-bt a .sp1{ width:11px; height:22px; background:url(../images_2.5/bt_bl.fw.png); display:block;}
+.mession-bt a .sp2{ height:22px; background:url(../images_2.5/bt_bm.fw.png); display:block; padding-left:5px; padding-right:5px;font-size:12px;color:rgb(255,255,255);line-height:22px;}
+.mession-bt a .sp3{ width:11px; height:22px; background:url(../images_2.5/bt_br.fw.png); display:block;margin-top:0px;}
+.mession-list1 ul:hover .p4 a{ visibility:visible;}
+/* 任务公用按钮*/
+
+.mession-wrap{}
+.mession-wrap .ul-wrap{ border:3px solid #F6F6F6; width:306px; float:left;margin-right:36px; margin-top:11px;}
+.mession-wrap .ul-wrap:hover{border:3px solid  #E9E8E9;}
+i{ font-style:normal;}
+
+/**设置订单地址 **/
+
+.commentwrap{ height:auto; margin:0 auto; margin-bottom:150px; background:#FBFAF9; }
+.commentwrap .commenttitle{ width:968px;  margin:0 auto;height:30px; border-bottom:1px solid #eeeeee;font-family:SimSun;font-size:14px;font-weight:bold;color:rgb(53,55,63); line-height:30px;}
+.commentwrap .commentbody{width:968px;height:auto; margin:0 auto;  border-left:1px solid #eee; border-right:1px solid #eee; margin-bottom:15px; border-bottom:1px solid #eeeeee;}
+.commentwrap .commentbody2{ height:732px; height:auto; border-left:1px solid #eee; border-right:1px solid #eee;float:left; margin-bottom:15px;  border-bottom:1px solid #eee;}
+.commentwrap .commentbody .l{ width:329px; height:320px; float:left; border-right:1px solid #eeeeee;}
+.commentwrap .commentbody .l2{  height:auto;}
+.commentwrap .commentbody .l p{ margin:20px; text-align:center;}
+.commentwrap .commentbody .l p a{ color:#63A3E9; text-align:center;}
+.commentwrap .commentbody .l p a img{ margin-top:20px;}
+.commentwrap .commentbody .r{ width:637px; height:auto;float:left; border-left:1px solid #eeeeee; padding-bottom:20px;}
+.commentwrap .commentbody .r .checkbox{ width:810px; margin-top:40px;}
+.commentwrap .commentbody .r .checkbox input{ border:none; padding-right:30px;}
+.commentwrap .commentbody .r .checkbox p{ margin:20px;}
+.commentwrap .commentbody .r .checkbox p span{ width:15px; height:30px; line-height:30px; display:block; float:left;}
+.commentwrap .commentbody .r .checkbox p b{width:50px; height:30px; line-height:30px; display:block; float:left; font-style:normal; font-weight:normal; }
+.commentwrap .commentbody .r .checkbox p span input{ border:none; padding-right:30px; margin-top:8px;}
+.commentwrap .commentbody .r .checkbox p textarea{ width:808px; height:121px; border:none;}
+.commentwrap .commentbody .r .checkbox p .bt{ width:90px; height:30px; background:#E75258; text-align:center; color:#FFF; display:block; line-height:30px;}
+.commentwrap .commentbody .r .checkbox2{ width:810px; margin:0 auto; margin-top:40px;}
+.commentwrap .commentbody .r .checkbox2 .cl{ float:left; width:120px; padding-top:20px;}
+.commentwrap .commentbody .r .checkbox2 .cm{ float:left; width:400px;}
+.commentwrap .commentbody .r .checkbox2 .cr{ float:left; width:100px;padding-top:40px;}
+.commentwrap .commentbody .r .checkbox2 .cr a{ color:#63A3EA;}
+.commentwrap .commentbody .r .checkbox2 p{ margin:10px;}
+.commentwrap .commentbody .r .checkbox2 p a{ margin-left:10px; color:#63A3EA;}
+.commentwrap .commentbody .r .checkbox2 p a.sh{ margin-left:10px; color:#fff; background:#E75258; padding:5px;}
+.commentwrap2{height:452px;}
+.commentwrap3{height:762px;}
+.commentwrap .commentft{width:1008px;height:99px; margin:0 auto;}
+.commentwrap .commentft  p{ margin:10px;}
+
+.commentwrap .commentbody .r .checkbox3{height:auto; margin:0 auto; margin-top:22px; margin-left:30px;}
+.commentwrap .commentbody .r .checkbox3 p{ margin-top:10px; margin-bottom:18px;}
+.commentwrap .commentbody .r .checkbox3 .cl{ float:left; width:110px; padding-top:10px;}
+.commentwrap .commentbody .r .checkbox3 .cm{ float:left; width:350px;}
+.commentwrap .commentbody .r .checkbox3 .cm a#sub_order{width:90px; height:30px; background:#D8230E; display:inline-block; text-align:center; line-height:30px; color:#fff; cursor:pointer;}
+.commentwrap .commentbody .r .checkbox3 .cr{ float:left; width:100px;padding-top:45px;}
+.commentwrap .commentbody .r .checkbox3 .cr a{ color:#63A3EA; cursor:pointer;}
+.commentwrap .commentbody .checkbox3ft{ width:810px; height:40px; margin:0 auto; float:left; margin-top:0px;}
+.commentwrap .commentbody .checkbox3ft a{ color:#FFF; background:#63A3EA; padding:10px; margin-left:160px; padding-left:20px; padding-right:20px;}
+.unline{ border-bottom:1px solid #eeeeee;}
+
+.commentbody .change{ width:582px; height:autopx;  float:left; margin-top:20px; }
+.commentbody .change .sp1{ width:600px; height:50px; line-height:50px; margin:0 auto; float:left;}
+.commentbody .change .sp1 #address{ width:260px;}
+.select_style {width:100px; height:35px; overflow:hidden; background:url(../images_2.5/ico-arrowsmall.fw.png) no-repeat; *background:url(../images_2.5/ico-arrowsmall2.fw.png) no-repeat; float:left;margin-right:15px;
+}
+.commentbody .change .sp1 select{margin-top:-2px; padding:5px; margin-left:-2px; background:transparent; width:123px; font-size: 16px; border:none; border:0; height:37px;line-height:35px; *padding-top:0px;*height:36px;*margin-top:-2px; font-size:16px; float:left;
+
+-webkit-appearance: none; /*for Webkit browsers*/}
+.commentbody .change .sp1 select option{height:30px; line-height:30px; *border:0px;}
+
+.commentbody .change  i{ width:100px; height:50px; line-height:50px; display:block; float:left; text-align:right;}
+.commentbody .change  b{height:50px; line-height:50px; font-weight:normal; }
+.commentbody .change .sp1 b{ width:5px;}
+.commentbody .change  input{ float:left; height:30px; line-height:30px; border:none; margin-top:10px; margin-right:10px; border:1px solid #CCC;}
+.commentbody .change .sp2 textarea{ float:left; width:400px; height:121px;border:none;}
+.commentbody .change .sp2{ width:562px; height:121px; margin:0 auto;margin:0 auto; float:left; margin-bottom:20px;}
+.commentbody .change .sp1 .bt1 a{ height:30px; width:76px; display:block; line-height:30px;padding-left:10px; padding-right:10px; color:#FFF; background:#63A3EA}
+.commentbody .change .sp1 span{ margin-top:5px; margin-left:50px;}
+.commentbody .change .sp1 span button{ width:91px; height:30px; border:none; background:#E75258; color:#FFF;}
+.commentbody .change .sp3{ width:482px; height:50px; margin:0 auto;margin:0 auto; float:left;}
+.commentbody .change .sp3 input{ width:100px;}
+.commentbody .change .sp4{ width:482px; height:50px; margin:0 auto;margin:0 auto; float:left;}
+.commentbody .change .sp4 input{ width:11px; border:none}
+.commentbody .change .sp4 span{ margin-top:5px; margin-left:50px;}
+.commentbody .change .sp4 b{ float:left; }
+.commentwrap .commentbody .checkbox3ft2 a{ color:#FFF; background:#63A3EA; padding:10px; margin-left:140px; padding-left:20px; padding-right:20px;}
+.checkbox3ft2 #savebt{ margin-left:100px; width:105px; height:38px; color: #FFF; background:#D8230E; border:none; cursor:pointer;}
+.commentbody .change .sp1 .Validform_wrong{ margin-top:14px;}
+.commentbody .change .sp1 .Validform_right{margin-top:14px; display:none;}

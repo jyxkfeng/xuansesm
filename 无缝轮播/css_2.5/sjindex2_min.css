@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+#content{ background:#F5F5F5;}
+.banner-lybg{ width:1008px; height:21px; margin:0 auto; background:url(../images_2.5/sjindex/sjbg1.fw.png) center center no-repeat; margin-bottom:20px;margin-top:43px;}
+.banner-ly{ width:700px; height:360px; margin:0 auto; position:relative; }
+.banner-ly .ft-L { width:700px; height:360px; position:relative; overflow:hidden;}
+.banner-ly .ft-L ul{ height:360px;  position:relative; left:0px;}
+.banner-ly .ft-L ul li{ float:left; }
+
+.banner-ly  .ico-ly{ background:url(../images_2.5/sjindex/ico-lingyuan.fw.png) no-repeat right top; width:59px; height:48px; position:absolute; right:0; top:0px;}
+.banner-ly .ico-prev{ background:url(../images_2.5/sjindex/ico-prev.fw.png) no-repeat left top; width:21px; height:56px; left:5px; top:143px; position:absolute; cursor:pointer; z-index:11;}
+.banner-ly .ico-next{ background:url(../images_2.5/sjindex/ico-next.fw.png) no-repeat right top;width:21px; height:56px;right:5px; top:143px;position:absolute; cursor:pointer;z-index:11;}
+.banner-ly ol{ width:77px; height:16px; margin:0 auto;position:absolute; bottom:17px; left:45%;}
+.banner-ly ol li{ float:left; width:11px; height:11px; background:url(../images_2.5/sjindex/ico-nohover.fw.png) no-repeat; margin-right:8px; cursor:pointer; }
+.banner-ly ol li:hover,.banner-ly ol li.hover{ background:url(../images_2.5/sjindex/ico-hover.fw.png) no-repeat;}
+

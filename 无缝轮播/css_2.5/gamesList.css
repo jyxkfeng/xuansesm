@@ -1,0 +1,50 @@
+/**
+ * Created by vincent on 14-5-9.
+ */
+body{ background: url("../images_2.5/newIndex/bg_games.jpg") center 161px no-repeat; width:auto; min-width:1200px;}
+#content{*margin-top:62px; background:none !important}
+#header, #footer{ background:none}
+/*#header .sub-head-right a{color: #0e5e86;}*/
+#header .sub-head-right a:hover{color: #d8230e;}
+.games-img01{ width:1200px; height: 220px; margin-top: 61px; background: url("../images_2.5/newIndex/bg_game02.jpg") center 0 no-repeat}
+.games-img02{ width:1200px; height: 222px;background: url("../images_2.5/newIndex/bg_game03.jpg") center 0 no-repeat}
+.games-img03{ width:1200px; background: url("../images_2.5/newIndex/bg_game04.jpg") center 0 no-repeat; padding-top: 280px; position: relative;}
+.games-img04{ width: 1200px; min-height: 592px; background: url("../images_2.5/newIndex/bg_game06.jpg") center 0 repeat-y; }
+.games-img05{width:1200px; height: 53px;background: url("../images_2.5/newIndex/bg_game07.png") center 0 no-repeat; }
+.games-img04 li{ float: left; width: 229px; height: 249px; background: url("../images_2.5/newIndex/bg_game_info.png") 0 0 no-repeat; margin-left: 126px; padding-bottom: 50px;}
+.games-img04 img{ width: 120px; height: 120px; margin-top: 30px; margin-left: 50px;}
+.games-img04 span{ display: block; line-height: 36px; font-size: 14px; color: #fff; text-align: center;}
+.games-img04 a{ width: 113px; height: 36px; margin-left: 56px; display:block; background: url("../images_2.5/newIndex/bg_game_button01.png") 0 0 no-repeat;}
+.games-img04 a:hover{background: url("../images_2.5/newIndex/bg_game_button02.png") 0 0 no-repeat;}
+#footer{ margin-top:144px;}
+.games-cao{width:87px; height: 151px;background: url("../images_2.5/newIndex/bg_cao.png") 0 0 no-repeat;position: absolute; bottom: 3px; right:20px }
+.erweima2{width: 126px;height: 125px;position: absolute; bottom: -124px; right:4px }
+.erweima2 span{ color:#FFF;width: 125px;text-align: center;display: inline-block;margin-top: 8px}
+.games{ position: relative; top:161px;}
+.icon-games01{ position: absolute; top:-18px; left: 20px; width: 168px; height: 158px; background: url("../images_2.5/newIndex/icon_games05.png") 0 0 no-repeat;}
+.icon-games02{ position: absolute; top:-18px; right: 20px; width: 155px; height: 196px; background: url("../images_2.5/newIndex/icon_games06.png") 0 0 no-repeat;}
+.icon-games03{position: absolute; top:760px; left: -200px; width: 91px; height: 93px; background: url("../images_2.5/newIndex/bg_games_pao02.png") 0 0 no-repeat;}
+.icon-games03 span{ width: 91px; height: 93px; background: url("../images_2.5/newIndex/bg_games_pao02.png") 0 0 no-repeat;}
+.huiji{ width:172px; height:156px; background:url(../images_2.5/huiji.fw.png); position:absolute; left:0px; top:0px;}
+.qiqiu{ width:162px; height:224px; background:url(../images_2.5/qiqiu.fw.png); position:absolute; right:0px; top:0px;}
+.paopao{ width:190px; height:70px; position:absolute; left:600px; top:244px;}
+.paopao .pp1{ background:url(../images_2.5/qipao1.fw.png); width:51px; height:44px; position:absolute; left:0px; bottom:0px; display:none;}
+.paopao .pp2{ background:url(../images_2.5/qipao2.fw.png); width:51px; height:44px; position:absolute; left:0px; bottom:0px;display:none;}
+.paopao .pp3{ background:url(../images_2.5/qipao3.fw.png); width:51px; height:44px; position:absolute; left:0px; bottom:0px;display:none;}
+.paopao .pp4{ background:url(../images_2.5/qipao4.fw.png); width:112px; height:65px; position:absolute; left:62px; top:0px;display:none;}
+.paopao .pp4 span{ width:72px; height:43px; position:absolute;top:18px;left:20px; color:#00b9ef; font-size:12px;}
+.footer-mid{ color:#FFF !important; padding-top:110px !important;background: url('../images_2.5/newIndex/img05.png') no-repeat; background-position:0px 80px !important;}
+.footer-mid a{ color:#FFF !important;}
+.footer-top .logo-b{ padding-top:130px  !important; background-position:0px 82px !important; }
+.footer-top{background:none !important;}
+.footer-bot{ background:url(../images_2.5/ftbg.jpg) center center no-repeat !important; }
+.footer-bot p{background:none !important;}
+.xfk { display:none !important;}
+#pri{ display:none;}
+.footer-three{ background-color:transparent!important}
+/*#header .head-info-top { border-bottom:none !important}*/
+.footer-three .footer-three-infor a { color:#FFF !important;}
+.footer-three .footer-three-address{ color:#FFF !important;}
+.footer-three .footer-three-copyright{ color:#FFF !important;}
+.lg-float{ display:none !important;}
+.footer-three .footer-three-infor a{border-right: 1px solid #ffffff !important;}

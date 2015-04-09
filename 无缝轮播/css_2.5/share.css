@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+.clearme:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+
+* html .clearme {height: 1%;}
+ins{ display:none;}
+.m-right0{margin-right:0px !important;}
+.m-top20{ margin-top:20px;}
+.m-right36{margin-right:36px;}
+.m-top35{margin-top:35px;}
+.mbt-20{ margin-bottom:20px;}
+.m-top9{ margin-top:9px;}
+
+.userwrap{ width:1200px;}
+/* 任务公用按钮*/
+.mession-bt a{ height:22px; display:block; visibility:hidden; margin-top:10px;}
+.mession-bt a span{ float:left;}
+.mession-bt a .sp1{ width:11px; height:22px; background:url(../images_2.5/bt_bl.fw.png); display:block;}
+.mession-bt a .sp2{ height:22px; background:url(../images_2.5/bt_bm.fw.png); display:block; padding-left:5px; padding-right:5px;font-size:12px;color:rgb(255,255,255);}
+.mession-bt a .sp3{ width:11px; height:22px; background:url(../images_2.5/bt_br.fw.png); display:block;}
+.mession-list1 ul:hover .p4 a{ visibility:visible;}
+/* 任务公用按钮*/
+
+.share-warp{ background:#ffffff; padding-bottom:77px;}
+.share-warp .bigimg{height:305px;}
+.share-warp h2{ margin-left:33px; margin-right:85px;font-size:29px;color:#bc5400; line-height:37px; height:37px; margin-top:46px; font-family:"微软雅黑";}
+.share-warp p{ margin-left:33px; margin-right:85px;font-size:12px;line-height:24px; height:24px;  font-family:"宋体";color:rgb(152,151,151);}
+.share-warp textarea{margin-left:33px; margin-right:85px; height:100px; width:960px; resize:none; margin-top:12px; padding-top:15px; padding-left:15px; border: 1px solid #eeeeee; background:#fafafa;}
+.share-warp .share-url{margin-left:33px; margin-right:85px;line-height:17px; height:22px;margin-top:11px; font-family:SimSun;font-size:12px;color:rgb(151,151,151);font-family:"宋体";}
+.share-warp .share-url span.ft-L{ width:670px;}
+.share-warp .share-url span.ft-r{ width:200px;}
+.share-warp .share-url span.ft-r a{ width:22px; height:22px; display:block; float:left; margin-right:9px; cursor:pointer}
+.share-warp .share-url span.ft-r a.sina{ background:url(../images_2.5/sina.fw.png);}
+.share-warp .share-url span.ft-r a.weibo{ background:url(../images_2.5/weibo.fw.png);}
+.share-warp .share-url span.ft-r a.qzone{ background:url(../images_2.5/qzone.fw.png);}
+.share-warp .share-url span.ft-r a.renren{ background:url(../images_2.5/renren.fw.png);}
+.share-warp .share-url span.ft-r a.douban{ background:url(../images_2.5/douban.fw.png);}
+.share-warp  .share-bt{margin-left:33px; margin-right:85px;margin-top:12px;}
+.share-warp  #share-bt{ width:145px; height:48px; display:block;}
+
+.share-warp .ico1{ background:url(../images_2.5/ioc1.fw.png) 0px 8px no-repeat;font-size:12px;line-height:24px;color:rgb(101,101,101); text-indent:12px; margin:0 auto; margin-left:33px; height:24px;}
+.share-warp .underline{ border-bottom:1px  dotted #8A8A8A;margin-left:33px; margin-right:85px; margin-top:8px; margin-bottom:8px;}

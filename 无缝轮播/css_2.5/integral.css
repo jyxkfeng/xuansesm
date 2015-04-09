@@ -1,0 +1,23 @@
+/**
+ * Created by vincent on 14-5-9.
+ */
+ .integral{ min-height:900px;}
+.integral h3{ line-height: 30px; font-size: 24px; font-family: "微软雅黑"; margin-bottom: 10px;}
+.integral-yd li{ float: left; line-height: 24px; font-size: 14px;color: #bcbcbc }
+.integral-yd li a{ display: block;padding: 0 8px; color: #595b61; }
+.integral-yd li a.cur, .integral-yd li a:hover{ background: #db3421; color: #fff;}
+.integral-prd-info{ border-left: #cecece 1px dashed;}
+.integral-prd-list{background: #f2f2f3; padding: 20px;margin-top: 10px;}
+.prd-info{ background: #fcfcfc; float: left; padding: 10px; border: #cecece 1px  dashed;border-left: 0; margin-top: -1px;}
+a.prd-info:hover{color: #898989;}
+a.prd-info:hover span.ft-r{ display: block;}
+.prd-info img{ width: 300px; height: 210px;}
+.prd-info div.clearfix{ line-height: 40px;}
+.prd-info span.ft-L{ width: 230px;font-size: 14px;}
+.bottom-line{ border-bottom: #f0f0f0 1px solid;}
+.prd-info span.ft-r{width:56px; height:24px; display:none;background: url("../images_2.5/newIndex/bg_huan02.png") 0 0 no-repeat; margin-top: 8px;}
+.prd-info label.ft-L{ width: 50%;line-height: 18px; padding-top: 8px;}
+.prd-info label.ft-L em{ color: #dc5545;font-family: arial;}
+.prd-info label.ft-r{ width: 50%; text-align: right; line-height: 18px; padding-top: 8px;}
+.prd-info label.ft-r em{color:#dc5545;font-size: 18px; padding-right: 4px; font-family: arial; text-align:right; width: 120px; float: left}
+.prd-info label.ft-r b{ float: right; font-weight: normal;}

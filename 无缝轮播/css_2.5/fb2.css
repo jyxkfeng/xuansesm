@@ -1,0 +1,216 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0}
+html{font-size:12px;}
+ol,ul{list-style:none}
+dl,dt,dd{margin: 0; padding:0;}
+#content{ background:none !important;}
+body{ background: url("../images_2.5/fbbg.png") 0 0 repeat; width:auto; min-width:1008px;}
+.clearfix:after {content: "."; display: block;height: 0;clear: both; visibility: hidden;}
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+.footer-info{ width:1008px !important;}
+.footer-info ul{ margin-left:320px !important;}
+.left-col{float: left;width: 760px; margin-right: 20px;}
+.right-col{float: right; width: 228px;}
+.ft-L{float: left;}
+.ft-r{float: right;}
+.m-top10{ margin-top: 10px;}
+a{color: #898989;text-decoration: none;}
+a:hover{color: #d8230e}
+.content { background:url(../images_2.5/fbbg.png) repeat; width:auto; min-width:1008px;}
+.fb-wrap{ width:983px;margin:0 auto;padding-top:20px;position:relative; }
+.fb-content{ width:983px; height:690px; margin:0px auto; background:url(../images_2.5/fbbg5-2.fw.png) no-repeat;}
+.fb-content .ft-L{ background:url(../images_2.5/zpbg.fw.png) no-repeat 72px 102px;}
+.demo{ width:500px; height:535px; background:url(../images_2.5/p1.gif) no-repeat;  margin-top:100px; margin-left:120px; position:relative;}
+#disk {
+	position:absolute;
+    width:360px;
+    height:360px;
+    background:url(../images_2.5/panbg.png) no-repeat; no-repeat scroll 0% 0% transparent; background-size:360px 360px;
+	left:34px;
+	top:34px;
+}
+#start {
+    width:119px;
+    height: 206px;
+    position: absolute;
+    top: 157px;
+    left: 155px;
+}
+#start:hover{ cursor:pointer;}
+#start #zz {
+    width:119px;
+    height: 206px;
+    position: absolute;
+    top: 0;
+    left:0;
+}
+
+.fb-bt{width:412px; height:63px; margin-left:138px; margin-top:16px;}
+.fb-bt a{ width:159px; height:63px; float:left; margin-left:20px;}
+.fb-bt a.a1{ background:url(../images_2.5/fbbt1.fw.png) no-repeat; }
+.fb-bt a.a2{ background:url(../images_2.5/fbbt2.fw.png) no-repeat;}
+.fb-bt a.a1:hover,.fb-bt a.a2:hover{ background-position:left bottom;}
+#viewother,#repeat{display:none}
+.fb-info{ width:298px; height:555px; background:url(../images_2.5/fbbg8.fw.png) no-repeat; margin-right:36px; margin-top:89px;}
+.fb-userinfo{ width:238px; padding:10px; padding-top:0px; height:63px; margin:0 auto; margin-top:67px;}
+.ifcont{font-family:"宋体";font-size:12px;line-height:24px;font-weight:bold;color:rgb(255,193,51); padding-left:10px;}
+.ifcont span.name{color:rgb(125,224,253); padding-left:10px;}
+.ifcont span.cont{color:rgb(255,104,31);padding-left:10px;}
+.fb-prizeinfo{ width:256px; height:33px; margin:0 auto; background:#F4E0B2; margin-left:24px;font-size:14px;line-height:33px;font-weight:bold;color:rgb(199,98,54); text-align:center;font-family:"宋体";}
+.fb-prizeinwrap{ width:242px; height:354px; margin:0 auto; padding-left:13px; padding-top:9px;}
+.fb-prizeinwrap ul li{ width:234px; height:68px; border-bottom:1px solid #F4E0B2;}
+.fb-prizeinwrap ul li a{ float:left; padding:5px; line-height:68px;}
+.fb-prizeinwrap ul li a.a1{width:58px; height:58px;}
+.fb-prizeinwrap ul li a.a2{ width:156px; height:58px;}
+.fb-prizeinwrap ul li a img{ width:58px; height:58px;}
+#prize{margin:0px auto; width:597px; height:436px; margin-left:8px; margin-top:8px;}
+#prize li{float:left; width:199px; height:150px;cursor:pointer; background:url(../images_2.5/fpbg1.fw.png) no-repeat;}
+#prize li:hover{background:url(../images_2.5/fpbg1-hover.fw.png) no-repeat}
+.fb-gz{  background: url("../images_2.5/fpbg3.fw.png") no-repeat;height: 157px;line-height: 24px;margin: 10px auto 0;padding: 50px 50px; width: 863px;
+		color: #818181;
+	font-family:"宋体";
+	font-size: 14px;
+	line-height:150%;
+	padding-bottom:0px;
+}
+#footer{ background: #fff;}
+.rank{
+    width: 979px;
+    height: 272px;
+    margin-top: 10px;
+    background: url("../images_2.5/bg_rank.png") 0 0 no-repeat;
+}
+.rank-info{
+    float: left;
+    position: relative;
+    width: 160px;
+    margin-top: 42px;
+    margin-left: 30px;
+}
+.rank-info h3{
+    width: 137px;
+    height: 27px;
+    background: url("../images_2.5/bg_zf.png") 0 0 no-repeat;
+    font-size: 16px;
+    font-family: "arial";
+    color: #e8690b;
+    position: absolute;
+    top:20px;
+    left: 0;
+    z-index: 4;
+    padding-top: 6px;
+}
+.rank-info h3 em{
+    padding: 8px 60px 0 8px;
+    display: inline-block;
+    font-size: 12px;
+    color: #925a0b;
+    vertical-align: top;
+}
+.rank-info .user-img{
+    margin-left:36px;
+    margin-top: 72px;
+    width: 83px;
+    height: 83px;
+}
+.rank-info .user-zz{
+    width: 160px;
+    height: 156px;
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 33px;
+    left: 0;
+    background: url("../images_2.5/yx_zz01.png") 0 0 no-repeat;
+}
+.rank-info .user-zz02{
+    top: 46px;
+    left: 16px;
+    background: url("../images_2.5/yx_zz02.png") 0 0 no-repeat;
+}
+.rank-info .user-ch{
+    width: 84px;
+    height: 22px;
+    position: absolute;
+    z-index: 3;
+    top: 142px;
+    left: 36px;
+}
+.user-name{
+    height: 26px;
+    padding-left: 5px;
+    background: url("../images_2.5/bg_nL.png") 0 0 no-repeat;
+    position: absolute;
+    top: 176px;
+    left: 30px;
+    z-index: 4;
+}
+.user-name span{
+    float: left;
+    line-height: 26px;
+    color: #91340a;
+    font-size: 14px;
+    background: url("../images_2.5/bg_nM.png") 0 0 repeat-x;
+}
+.user-name label{
+    float: left;
+    width: 6px;
+    height: 26px;
+    background: url("../images_2.5/bg_nR.png") 0 0 no-repeat;
+}
+.rank-click{
+    width: 38px;
+    height: 115px;
+    position: absolute;
+    top: 450px;
+    right: -50px;
+    background: url("../images_2.5/icon_rank.png") 0 0 no-repeat;
+}
+.marquee{
+    margin-top: 20px;
+    line-height: 30px;
+    background: #fff;
+    color: #1fc1fa;
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+}
+.marquee span{
+    margin-right: 10px;
+}
+.marquee em{
+    color: #ff8124;
+    font-style:normal;
+    padding-left: 2px;
+}
+
+#popup_title{ display:none;}
+.popup_container{ background:none !important;} 
+.game,.gameconfirm{ width:521px; height:233px; background:url(../images_2.5/tips1.png) !important; background-repeat:no-repeat;}
+.game #popup_message .sucess{ font-family:"微软雅黑"; font-size:26px; padding-top:64px; text-align:center; color:#6c2401;} 
+.gameconfirm #popup_message .sucess{ font-family:"微软雅黑"; font-size:26px; padding-top:64px; text-align:center; color:#6c2401;} 
+.gameconfirm #popup_message .tishi{ font-family:"微软雅黑"; font-size:26px; padding-top:64px; text-align:center; color:#6c2401; min-height:94px;}
+.game #popup_ok{ background:url(../images_2.5/button.png) !important; width:142px; height:45px; font-size:16px; text-align:center; color:#FFF;}
+.gameconfirm #popup_ok,.gameconfirm #popup_cancel{ background:url(../images_2.5/button.png) !important; width:142px; height:45px; font-size:18px; text-align:center; color:#FFF;}
+
+.share{width:521px; height:233px; background:url(../images_2.5/tips1.png) !important; background-repeat:no-repeat;}
+.{ background:none;} 
+.gy-dialog{ background:none; width:auto;}
+.gy-dialog .title2{ width:auto};
+.gy-dialog .title2 a.closetips{ margin-top:0px !important;}
+.gy-dialog .title2 span{ width:490px; color:#6c2401;}
+.share .body3{ height:auto;}
+.share .body3 .sucess{font-family:"微软雅黑"; font-size:28px; padding-top:14px; text-align:center; color:#6c2401;}
+.share #popup_ok{background:url(../images_2.5/button.png) !important; width:142px; height:45px; font-size:18px; text-align:center; color:#FFF;}
+.gy-dialog .title2{ border-bottom:none;}
+.gy-dialog .share2{ width:400px; height:30px; margin:0 auto; margin-top:5px;}
+.gy-dialog .share2 span{ float:left;}
+.gy-dialog .share2 a{ margin-left:3px;}
+.gy-dialog  .share2 .qq{ width:35px; height:35px; display:block; float:left; }
+.gy-dialog .share2 .weibo{width:35px; height:35px; display:block; float:left;}
+.gy-dialog  .share2 .qq2{ width:35px; height:35px; display:block; float:left; }
+.gy-dialog  .share2 .weibo2{ width:35px; height:35px; display:block; float:left;}
+.popup_share{ top:0px;}

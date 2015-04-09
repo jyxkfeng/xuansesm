@@ -1,0 +1,39 @@
+body{ min-width:1008px;}
+.content{ width:100%; background:url(../images_2.5/infocontbg.fw.png) no-repeat center 163px; min-width:1008px;}
+.uitag{ width:1008px; height:25px; margin:0 auto; border-bottom:1px solid #e7e6e6; background:#f2f2f2;}
+.uitag ul{ margin-left:43px;}
+.uitag ul li{ width:90px; height:17px; float:left; }
+.uitag ul li a{ width:70px; padding-left:10px; padding-right:10px; border-right:1px solid #35383F; }
+.uitag ul li a.nobr{border-right:none}
+.uitag ul li a:hover,.uitag ul li a.hover{ color:#F00;}
+
+.uitable{ width:1200px;  margin:0 auto; background:#fefefe; /*min-height:860px; */}
+.boundwrap{ width:1180px; height:243px; margin:0 auto; padding-top:82px;}
+.boundwrap  ul{}
+.boundwrap ul li{ width:269px; height:173px; float:left; background:#FFFFFF;
+    margin-left:90px; margin-right:0px; padding-top:45px; position:relative;border: 1px solid #e8e8e8;}
+.boundwrap ul li span{ width:269px; display:inline-block; text-align:center; line-height:20px;font-family:SimSun;font-size:14px;
+font-weight:bold;color:rgb(101,101,101); padding-top:10px; padding-bottom:10px;}
+.boundwrap ul li p{font-family:SimSun;font-size:12px; line-height:18px;color:rgb(137,137,137); padding-left:45px; padding-right:45px; text-align:center;}
+.boundwrap ul li ins{ width:93px; height:61px;  position:absolute; left:0px; display:inline-block; top:-0px;}
+.boundwrap ul li ins.yes{background:url(../images_2.5/boundyes.fw.png);}
+.boundwrap ul li ins.no{background:url(../images_2.5/boundno.fw.png);}
+.boundwrap ul li .gobound{width:269px; height:198px; z-index:3; background:#000;   opacity: 0.8;
+    filter:alpha(opacity=80); position:absolute; top:0px; left: 0px; display:none;}
+.boundwrap ul li .gobound a{ width:143px; height:42px; line-height:42px; background:#D8230E; display:block; color:#FFF; margin-left:62px; margin-top:78px;opacity: 1;
+    filter:alpha(opacity=100); *margin-left:0px;}
+.boundwrap ul li:hover .gobound{ display:block;}
+
+.boundwrap ul li .nobound{width:269px; height:198px; z-index:3; background:#000;   opacity: 0.8;
+    filter:alpha(opacity=80); position:absolute; top:0px; left: 0px; display:none;}
+.boundwrap ul li .nobound a{ width:143px; height:42px; line-height:42px; background:#999; display:block; color:#FFF; margin-left:62px; margin-top:78px;opacity: 1;
+    filter:alpha(opacity=100); *margin-left:0px;}
+.boundwrap ul li:hover .nobound{ display:block;}
+
+
+
+/*jiben*/
+.jiben-nav{font-family: "微软雅黑",Arial,Helvetica,sans-serif;}
+.jiben-nav{width:968px;height: 25px; background-color: #f2f2f2; border-bottom: 1px solid #e7e6e6; padding-left: 40px;  margin-left: auto;margin-right: auto;}
+.jiben-nav a{ width: 80px;text-align: center; display: inline-block; border-right: 1px solid #dcdcdc;}
+.red{color: #d8230e;}

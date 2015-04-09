@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+.t-ind10{ text-indent:10px; border-top:1px dotted #eeeeee;}
+.merchant{ background:#FFF;}
+.merchant .mer-top{ width:970px; height:auto; margin:0 auto;}
+.merchant .mer-top .logo{ width: 307px;
+height: 207px; float:left; background:url(../images_2.5/logobg.fw.png) left top no-repeat; padding-top:1px; padding-left:1px;}
+.merchant .mer-top .mer-tt{font-family:"宋体"; width:635px; height:auto; float:left; margin-left:18px;}
+.merchant .mer-top .mer-tt .stitle{font-family:"宋体";font-size:22px;font-weight:bold;color:rgb(53,55,63); height:32px; line-height:32px;}
+.merchant .mer-top .mer-tt .dis{font-size:12px;line-height:200%;color:rgb(157,157,157);text-align:left; border-bottom:1px solid #eeeeee;  height:24px;overflow:hidden;line-height: 24px; padding-right:50px;
+margin-top: 9px;}
+.merchant .mer-top .mer-tt .more-dis{ height:25px; width:25px; position:relative; left:610px; top:-19px; background:url(../images_2.5/moredisbg.fw.png) bottom center no-repeat; display:inline-block; cursor:pointer;}
+.merchant .mer-top .mer-tt .shoplink{ margin:0 auto;}
+.merchant .mer-top .mer-tt .shoplink .fl{ width:345px;float:left}
+.merchant .mer-top .mer-tt .shoplink .fl .num{font-family:Arial, Helvetica, sans-serif;line-height:30px; height:30px;text-align:left;width:345px; float:left;}
+.merchant .mer-top .mer-tt .shoplink .fl .num a.gz{ background:url(../images_2.5/nogz.fw.png) no-repeat; width:85px; height:31px; display:inline-block; line-height:30px;  margin-left:10px;}
+.merchant .mer-top .mer-tt .shoplink .fl .num a.gz.hover{background:url(../images_2.5/hasgz.fw.png) no-repeat; width:85px; height:31px;display:inline-block;line-height:30px; margin-left:10px;}
+.merchant .mer-top .mer-tt .shoplink .fl .num b{font-size:24px;color:rgb(215,35,13); padding-right:10px; height:30px; display:inline-block; float:left;}
+.merchant .mer-top .mer-tt .shoplink .fl .num span{ float:left;}
+.merchant .mer-top .mer-tt .shoplink .fl .num a{ float:left;}
+.merchant .mer-top .mer-tt .shoplink .fl .dpadd{ height:50px;width:345px; margin:0 auto;float:left;}
+.merchant .mer-top .mer-tt .shoplink .fl .dpadd a{ padding-left:10px; padding-right:10px; height:24px; background:#D8230E; float:left; margin-right:10px; margin-top:12px; text-align:center; color:#FFF; line-height:24px;}
+.merchant .mer-top .mer-tt .shoplink .fl .dpadd a.no{ background:#999999;}
+.merchant .mer-top .mer-tt .shoplink .fr{ width:240px; float:right;}
+.merchant .mer-top .mer-tt .shoplink .fr .imt{ width: 105px;float: left; background:#ECECEC; margin-right:10px;}
+.merchant .mer-top .mer-tt .shoplink .fr span{ display:inline-block; width: 119px; text-align: center;}
+.merchant .mer-top .mer-tt .shoplink .fr span.sp1{ width:20px;  height:auto; min-height:60px;float:left; word-wrap:break-word;word-break:nomal; padding-top:10px; overflow:hidden;}
+.merchant .mer-top .mer-tt .shoplink .fr span.sp2{ width:80px; height:85px; padding-top:5px; float:left;}
+.merchant .mer-top .mer-tt .shoplink .fr span img{ width:80px; height:80px;}
+.merchant .mer-top .mer-tt .shoplink .fr img{ float:left;}
+.merchant .pro-list{ width:967px; height:auto; margin:0 auto; margin-top:5px;margin-bottom:20px;}
+.merchant .pro-list ul li{ width:320px; height:330px; border:1px dotted #CECECE;float:left;}
+.merchant .pro-list ul li img{ padding:10px;}
+.merchant .pro-list ul li .sp{font-family:SimSun;font-size:14px; line-height:21px;color:rgb(137,137,137);text-align:left; text-align:right; display:inline-block;width:300px; height:21px; margin:10px; border-bottom:1px solid #eeeeee;}
+.merchant .pro-list ul li .sp a{ float:left;}
+.merchant .pro-list ul li .sp span{ text-align:left; float:right;}
+.merchant .pro-list ul li .sp span b{ color:#D8230E; font-weight:normal;}
+.merchant .pro-list ul li p{ padding:10px;}
+.merchant .pro-list ul li:hover{border:1px dotted #D28A81;}
+
+.md-ft{ width:1008px; height:40px; margin:0 auto;}
+.md-ft dl{ text-align:center;  height:20px; margin:0 auto;}
+.md-ft dl dd{ display:inline-block;}
+.md-ft dl dd a{ display:inline-block; text-align:center; line-height:20px; margin-right:5px;}
+.md-ft dl dd a.prve{ background:url(../images_2.5/prev.fw.png) no-repeat; width:49px; height:20px;}
+.md-ft dl dd a.next{ background:url(../images_2.5/next.fw.png) no-repeat; width:49px; height:20px;}
+.md-ft dl dd a{ background:url(../images_2.5/nmbg.fw.png) no-repeat; width:20px; height:20px;}
+.md-ft dl dd a.hover{ background:url(../images_2.5/nmbg-hover.fw.png) no-repeat; width:20px; height:20px; color:#FFF;}
+.md-ft dl  b{ background:url(../images_2.5/nmbg-hover.fw.png) no-repeat; width:20px; height:20px; display:inline-block; text-align:center; line-height:20px; margin-right:5px; color:#FFF;}
+.md-ft dl  a{ display:inline-block; text-align:center; line-height:20px; margin:0;padding:0; margin-right:5px; }
+.md-ft dl  a.prePage,.md-ft dl  a.prePage:hover{ display:inline-block;  line-height:20px; background:url(../images_2.5/prev.fw.png) no-repeat; width:49px; height:20px;}
+.md-ft dl  a.nextPage,.md-ft dl  a.nextPage:hover{ display:inline-block; line-height:20px; background:url(../images_2.5/next.fw.png) no-repeat; width:49px; height:20px;}
+.md-ft dl  a{ background:url(../images_2.5/nmbg.fw.png) no-repeat; width:20px; height:20px;}
+.md-ft dl  a.hover,.md-ft dl  a:hover{ background:url(../images_2.5/nmbg-hover.fw.png) no-repeat; width:20px; height:20px; color:#FFF;}
+
+
+div.logo img{
+    width: 250px;
+    height: 125px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 36px;
+}

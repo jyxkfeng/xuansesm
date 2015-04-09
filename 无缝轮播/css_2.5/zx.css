@@ -1,0 +1,115 @@
+/**
+ * Created by vincent on 14-4-18.
+ */
+.big-img{
+    margin-right: 15px;
+    height: 440px;
+    position: relative;
+}
+.big-img img{
+    width: 760px;
+    height: 440px;
+}
+.big-img a.prev, .big-img a.next{
+    width: 70px;
+    height: 440px;
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+.big-img .prev{
+    background: url("../images_2.5/icon_prev.png") 12px 50% no-repeat;
+    top: 0;
+    left: 0;
+}
+.big-img .next{
+    background: url("../images_2.5/icon_next.png") 10px 50% no-repeat;
+    top: 0;
+    right: 0;
+}
+.big-img .tit{
+    width: 745px;
+    height: 45px;
+    padding-left: 15px;
+    line-height: 45px;
+    font-size: 16px;
+    font-weight: bold;
+    background: url("../images_2.5/bg_zxtit.png") 0 0 repeat-x;
+    display: block;
+    text-align: left;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+	color:#4e4e4e;
+}
+.small-img-list{
+    width: 233px;
+}
+.small-img-list li{
+    margin-top: 16px;
+    background: url("../images_2.5/bg_zxsmall_img.png") 0 0 no-repeat;
+    padding-left:13px ;
+}
+.small-img-list li.onsel{
+    background:url("../images_2.5/bg_zx_onsel.png") 0 0 no-repeat ;
+}
+.small-img-list li.onsel img{
+    border: #c4c4c4 5px solid;
+    border-left: 0;
+    padding: 0;
+}
+#imgFirst{
+    margin-top: 0;
+}
+.small-img-list img{
+    width: 214px;
+    height: 124px;
+    border: #c4c4c4 1px solid;
+    border-left: 0;
+    padding: 4px 0;
+    padding-right: 4px;
+    cursor: pointer;
+
+}
+.col-blue-head, .sub-col-blue{
+    margin-top: 20px;
+}
+
+.new-info{
+    padding:22px 0;
+    border-bottom: #ddd 1px solid;
+}
+
+.new-info img{
+    width: 140px;
+    height: 105px;
+}
+.new-info .new-details{
+    width: 600px;
+    padding-right: 5px;
+    text-align: left;
+}
+.new-info .new-details h5{
+    font-weight: bold;
+    color: #333;
+    font-size: 16px;
+    line-height: 36px;
+}
+.new-info .new-details p{
+    color: #5d5d5d;
+    line-height: 22px;
+}
+.new-info .new-details p a{
+    color: #e75258;
+}
+.new-info .new-details p a:hover{
+    text-decoration: underline;
+}
+.pgf-mod li{
+    margin-top: 6px;
+}
+.pgf-mod li.ft-r{
+	float:right !important;
+}
+.pgf-mod-li{width: 30px;}

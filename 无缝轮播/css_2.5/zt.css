@@ -1,0 +1,84 @@
+/**
+ * Created by vincent on 14-4-17.
+ */
+.zt-info img{
+    width: 1200px;
+    height: 492px;
+}
+.zt-item img{
+    width: 290px;
+    height: auto;
+}
+.zt-list{
+    overflow: hidden;
+	min-height:600px;
+    /*-webkit-column-width:240px;
+    -moz-column-width: 240px;
+    -o-colum-width: 240px;
+    -webkit-column-gap: 16px;
+    -moz-column-gap: 16px;
+    -o-column-gap: 16px;*/
+}
+.zt-item{
+    width: 290px;
+    margin-top: 16px;
+    background: #fff;
+}
+.sub-zt-item{
+    padding: 10px;
+    text-align: left;
+}
+.zt-item-head h4{
+    font-size: 14px;
+    color: #e75258;
+    line-height: 22px;
+}
+.zt-item-head em{
+    color: #a4a4a4;
+    line-height: 20px;
+    font-family: Arial;
+    font-size: 11px;
+}
+.zt-item-body p{
+    margin-top: 5px;
+    line-height: 21px;
+    color: #666;
+}
+.zt-item-body ul{
+   float: right;
+}
+.zt-item-body li{
+    float: left;
+    margin-top: 15px;
+    padding-bottom: 5px;
+}
+.zt-item-body li a, .zt-item-body li span{ line-height: 16px; float: left;}
+.zt-item-body li.gz a{
+    background: url("../images_2.5/icon_gz.png") 0 2px no-repeat;
+    padding-left: 18px;
+}
+.zt-item-body li.gz a:hover,.zt-item-body li.gz a.hover{background: url("../images_2.5/ico-guanzhu.fw.png") 0 2px no-repeat;}
+.zt-item-body li.fx a{
+    margin-left: 10px;
+    background: url("../images_2.5/icon_fx.png") 0 1px no-repeat;
+    padding-left: 18px;
+}
+.zt-item-body li.fx a:hover,.zt-item-body li.fx a.hover{
+    margin-left: 10px;
+    background: url("../images_2.5/ico-fenxiang.fw.png") 0 1px no-repeat;
+    padding-left: 18px;
+}
+.zt-item-body li em{
+    color: #e75258;
+}
+
+.big-img img{
+    width:100%;
+    height: 400px;
+}
+
+.small-img-list{ width:60px; height:10px; margin:0 auto; position:relative; top:-20px;}
+.small-img-list li{ float:left; width:10px; height:10px; background:#000; margin-left:5px;filter:alpha(opacity=70); /*IE滤镜，透明度50%*/-moz-opacity:0.7; /*Firefox私有，透明度50%*/opacity:0.7;/*其他，透明度50%*/}
+.small-img-list li.onsel{ background:#ff0000;filter:alpha(opacity=70); /*IE滤镜，透明度50%*/-moz-opacity:0.7; /*Firefox私有，透明度50%*/opacity:0.7;/*其他，透明度50%*/} 
+
+.tipwrap2 .body2 { height:140px;}

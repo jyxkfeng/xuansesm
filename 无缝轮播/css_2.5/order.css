@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+.clearme:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+
+* html .clearme {height: 1%;}
+ins{ display:none;}
+.m-right0{margin-right:0px !important;}
+.m-top20{ margin-top:20px;}
+.m-right36{margin-right:36px;}
+.m-top37{margin-top:37px;}
+
+/* 任务公用按钮*/
+.odderlist{
+    padding-top: 14px;
+}
+.mession-bt a{ height:22px; display:block; visibility:hidden; margin-top:10px;}
+.mession-bt a span{ float:left;}
+.mession-bt a .sp1{ width:11px; height:22px; background:url(../images_2.5/bt_bl.fw.png); display:block;}
+.mession-bt a .sp2{ height:22px; background:url(../images_2.5/bt_bm.fw.png); display:block; padding-left:5px; padding-right:5px;font-size:12px;color:rgb(255,255,255);line-height:22px;}
+.mession-bt a .sp3{ width:11px; height:22px; background:url(../images_2.5/bt_br.fw.png); display:block;margin-top:0px;}
+.mession-list1 ul:hover .p4 a{ visibility:visible;}
+/* 任务公用按钮*/
+
+.mession-wrap{}
+.mession-wrap .ul-wrap{ border:3px solid #F6F6F6; width:306px; float:left;margin-right:36px; margin-top:11px;}
+.mession-wrap .ul-wrap:hover{border:3px solid  #E9E8E9;}
+.odderlist{background:#fefefe;}
+
+/**订单列表 **/
+.orderselectwrap{ width:1170px; height:132px; margin:0 auto; border:1px solid #eee; }
+.orderselectwrap .title{ width:1170px; height:35px; margin:0 auto; line-height:35px; background:#F5F4F4; border-bottom:1px solid #d7d5d5; text-indent:19px;}
+.orderselectwrap .title a{ color:#D92929}
+.orderselectwrap .body{ width:1170px; height:95px; margin:0 auto; background:#FFF;}
+.orderselectwrap .body .search{ width:920px; height:30px; padding-top:19px; padding-left:19px; float:left;}
+.orderselectwrap .body .search a.bt{ width:21px; height:23px; display:block; float:left; width:62px; height:19px; background:#F5F3F3; margin-left:15px; border:1px solid #eeeeee; text-align:center; line-height:19px; cursor:pointer;}
+.orderselectwrap .body .search span{ float:left;line-height: 21px;}
+.orderselectwrap .body .search input{ height:21px; width: 247px; line-height:21px; float:left; border:1px solid #eeeeee;  text-indent: 10px;color: #ccc;outline: none;}
+.orderselectwrap .body .search2{ width:325px; height:30px;margin-left:19px;float:left;}
+.orderselectwrap .body .search3{ width:584px; height:30px;margin-left:0px;float:left;}
+.orderselectwrap .body .search2 input{ height:21px; width:92px; line-height:30px; border:0px; margin-right:5px; margin-left:10px; border:1px solid #eeeeee;}
+.orderselectwrap .body .search3 span{ float:left; line-height:25px;}
+.select_style {width:83px; height:22px; overflow:hidden; background:url(../images_2.5/ico-dingdanarrow.fw.png) no-repeat;float:left;margin-right:15px;
+}
+
+.orderselectwrap .body .search3 select{padding-top:5px; margin-top:-2px; margin-left:-2px;
+    background:transparent; width:108px; font-size: 16px;
+    border:none; border:0; height:25px; border:1px solid #ffffff;
+    line-height:22px; *padding-top:0px;*height:25px;*margin-top:-2px; font-size:12px;
+    color: #ccc;
+}
+
+/*.orderselectwrap .body .search2 select{ height:22px; width:85px; line-height:30px; margin-right:15px;}*/
+.tabletitle{ width:1170px; height:35px; border-bottom:1px solid #D8230E; margin:0 auto; margin-top:20px;}
+.tabletitle a{ background:url(../images_2.5/tablett.fw.png) no-repeat; line-height:35px; height:35px; width:105px; display:inline-block; text-align:center; font-size:14px;font-weight:bold;color:rgb(255,255,255);}
+.tabletitle a:hover{ color:#FFF;}
+.tabletitle2{width:1170px; height:38px; background:url(../images_2.5/pointbg1.fw.png) repeat-x; margin:0 auto;}
+.tabletitle2 dl dt{ float:left; line-height:38px; text-indent:10px; }
+.tabletitle2 dl dt.dt1{ width:410px; text-indent:21px;}
+.tabletitle2 dl dt.dt2{ width:190px;text-indent:74px;}
+.tabletitle2 dl dt.dt3{ width:70px;}
+.tabletitle2 dl dt.dt4{ width:90px;text-indent:18px;}
+.tabletitle2 dl dt.dt5{ width:100px;}
+.tabletitle2 dl dt.dt6{ width:85px;}
+.tabletitle2 dl dt.dt7{ width:75px;}
+.tabletitle2 dl dt.dt8{ width:75px;}
+.tabletitle2 dl dt.dt9{ width:75px;}
+
+#content .odderlist {background-color: #fbfaf8; margin-top: -9px;padding-top: 20px;}
+.odderlist .t1{ width:1167px; height:28px; line-height:28px; margin:0 auto; margin-top:10px; border:1px solid #eeeeee; text-indent:13px;}
+.odderlist .t2{ width:1168px; height:90px;margin:0 auto;}
+.odderlist .t2 ul li{ float:left; overflow:hidden; border-left:1px solid #eeeeee;border-bottom:1px solid #eeeeee;height:90px; line-height:90px; text-align:center;}
+.odderlist .t2 ul li.li1{ width:408px;  }
+.odderlist .t2 ul li.li1 span.sp1{ float:left;  width:90px; height:70px; padding-top:20px;}
+.odderlist .t2 ul li.li1 span.sp2{ float:left; width:457px; height:50px; padding-top:25px; padding-left:10px; line-height:20px; text-align:left; }
+.odderlist .t2 ul li.li2{ width:188px;}
+.odderlist .t2 ul li.li3{ width:68px;font-family:"宋体";font-size:14px;font-weight:bold;color:rgb(215,35,13);}
+.odderlist .t2 ul li.li4{ width:88px;}
+.odderlist .t2 ul li.li5{ width:103px; line-height:18px; padding-top:30px; height:60px;}
+.odderlist .t2 ul li.li5 a.sucess{color:rgb(30,196,21);}
+.odderlist .t2 ul li.li5 a.more:hover{color:rgb(215,35,13);}
+.odderlist .t2 ul li.li5 a.sure{ width:57px; height:20px; line-height:20px; background:url(../images_2.5/57-20btbg.fw.png); text-align:center; color:#FFF; display:inline-block;}
+.odderlist .t2 ul li.li5 a.no{}
+.odderlist .t2 ul li.li5 a.yes{color:rgb(255,85,0);}
+.odderlist .t2 ul li.li6{ width:84px;}
+.odderlist .t2 ul li.li7{ width:70px; line-height:30px; padding-top:15px;height:75px;}
+#lineHeight{line-height: 90px}
+.odderlist .t2 ul li.li8{ width:75px;}
+.odderlist .t2 ul li.li9{ width:74px; border-right:1px solid #eeeeee; line-height: 67px;position: relative}
+.odderlist .t2 ul li.li9 a{ cursor:pointer;}
+
+.orderpage{ height:30px; width:470px !important;}
+
+
+a.lshaidan,div.lshaidan{
+    display: block;
+    border: 1px solid #dadada;
+    width: 45px;
+    height: 23px;
+    line-height: 23px;
+    position: absolute;
+    left: 12px;
+    top: 47px;
+    border-radius: 3px;
+    background-color: #f5f5f5;
+}
+
+div.lshaidan{
+	color:  #d4d4d4;
+}
+
+a.lshaidan:hover{
+    background-color: #ebebeb;
+    color: #898989;
+}

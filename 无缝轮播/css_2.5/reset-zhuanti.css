@@ -1,0 +1,44 @@
+/*header*/
+div#header{
+    background: url("../images/changtiao.jpg") repeat-x;
+}
+.head-style{
+    height: 30px;
+    line-height: 30px;
+}
+div.head-info{
+    background: none;
+    height: 30px;
+}
+div.head-info .head-right{
+    margin-top: 0;
+    width: 900px;
+}
+div.head-info .head-right ul{
+    float: left;
+    margin-top: 0;
+    display: inline-block;
+}
+div.head-info .head-right ul li{
+    float: left;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+/*div.head-info a img{
+    background-size: 83px;
+    width: 44px!important;
+    margin-top: 3px;
+}*/
+div.head-info .sub-head-right a{
+    height: 30px;
+}
+div.sub-head-right .icon-QR, div.sub-head-right .icon-wb, div.sub-head-right .icon-kj, div.sub-head-right .icon-QR:hover, div.sub-head-right .icon-wb:hover, div.sub-head-right .icon-kj:hover{
+    background-position: 0 9px;
+}
+div.qd-style h3{
+    padding-bottom: 0;
+}
+/*a.icon-QR div.sao-QR img{
+    width: 105px!important;
+    height: 105px;
+}*/

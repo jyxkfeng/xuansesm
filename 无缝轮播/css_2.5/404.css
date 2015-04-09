@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+.clearme:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+
+* html .clearme {height: 1%;}
+ins{ display:none;}
+.m-right0{margin-right:0px !important;}
+.m-top20{ margin-top:20px;}
+.m-right36{margin-right:36px;}
+.m-top35{margin-top:35px;}
+.mbt-20{ margin-bottom:20px;}
+.m-top9{ margin-top:9px;}
+
+/* 任务公用按钮*/
+.mession-bt a{ height:22px; display:block; visibility:hidden; margin-top:10px;}
+.mession-bt a span{ float:left;}
+.mession-bt a .sp1{ width:11px; height:22px; background:url(../images_2.5/bt_bl.fw.png); display:block;}
+.mession-bt a .sp2{ height:22px; background:url(../images_2.5/bt_bm.fw.png); display:block; padding-left:5px; padding-right:5px;font-size:12px;color:rgb(255,255,255);}
+.mession-bt a .sp3{ width:11px; height:22px; background:url(../images_2.5/bt_br.fw.png); display:block;}
+.mession-list1 ul:hover .p4 a{ visibility:visible;}
+/* 任务公用按钮*/
+
+.f-wrap{ width:661px; height:485px; background:url(../images_2.5/404bg.fw.png) no-repeat; margin:0 auto;}
+.fcont{ width:120px; height:60px; padding-left:273px; padding-top:229px;}
+.fcont span{ width:120px; height:30px; line-height:30px;font-size:14px;color:rgb(53,55,63); display:inline-block;}
+.fcont span a{font-family:SimSun;font-size:14px;text-decoration:underline;color:rgb(215,35,13);}
+

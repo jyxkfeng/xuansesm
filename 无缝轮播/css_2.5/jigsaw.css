@@ -1,0 +1,313 @@
+/**
+ * Created by vincent on 14-5-14.
+ */
+*{margin:0;padding:0}
+ol,ul{list-style:none}
+dl,dt,dd{margin: 0; padding:0;}
+body{}
+.clearfix:after {content: "."; display: block;height: 0;clear: both; visibility: hidden;}
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+#header{
+    height: 35px;
+    background: #f7f7f7;
+    border-bottom: #eee 1px solid;
+    line-height: 35px;
+    font-size: 12px;
+    color: #666;
+}
+.main-head-info{
+    width: 1008px;
+    margin: 0 auto;
+}
+.main-head-info a{
+    text-decoration: none;
+    color: #666;
+}
+.main-head-info a:hover{
+    text-decoration: underline;
+}
+.main-head-info span{
+    margin-right: 5px;
+}
+.main-head-info .bindex{
+    float: left;
+    padding-left: 15px;
+    background: url("../images_2.5/bg_sc.png") 0 12px no-repeat;
+}
+.main-head-info ul{
+    float: right;
+}
+.main-head-info ul li{
+    float: left;
+    margin-right: 5px;
+}
+.main-head-info ul li.bR{
+    color: #ddd;
+}
+#content{
+    width: 100%;
+	background: url("../images_2.5/fbbg.png") 0 0 repeat;
+}
+#footer{ background: #fff;}
+.footer-info{
+    width: 1008px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.footer-info ul{
+    margin:20px 0 10px 320px;
+}
+.footer-info li{
+    float: left;
+    font-size: 14px;
+    line-height: 35px;
+    margin-right: 10px;
+}
+.footer-info li a{
+    color: #494949;
+    text-decoration: none;
+}
+.footer-info li a:hover{
+    text-decoration: underline;
+}
+.footer-info p{
+    font-size: 12px;
+    line-height: 22px;
+    color: #848484;
+}
+.jigsaw{
+    width: 973px;
+    margin: 0 auto;
+    position: relative;
+	padding-top:20px;
+
+}
+.jigsaw-info{
+    padding-left: 48px;
+    padding-right: 32px;
+    height: 568px;
+    background: url("../images_2.5/newIndex/bg_jigsaw.png") 0 0 no-repeat;
+}
+#jigsawImg{
+    margin-top: 96px;
+    width: 675px;
+    height: 403px;
+    float: left;
+    position:relative;
+	background: url("../images_2.5/pnm6.png") 0 0 no-repeat;
+}
+
+#jigsawImg p{
+    position:absolute;
+    width:135px;
+    height:135px;
+    cursor:pointer;
+}
+
+
+.sub-jigsaw-info{
+    margin-top: 82px;
+    width: 198px;
+    float: right;;
+}
+.sub-jigsaw-info img{
+    width: 196px;
+    height: 116px;
+    border: #257eb4 2px solid;
+    border-radius: 4px;
+    margin-bottom: 24px;
+}
+.sub-jigsaw-info dl{
+    padding-left: 16px;
+    width: 170px;
+    color: #6dd0f3;
+    font-weight: bold;
+    font-size: 12px;
+}
+.sub-jigsaw-info dl dt{
+    float: left;
+    width: 64px;
+}
+.sub-jigsaw-info dt img{
+    width: 64px;
+    height: 64px;
+    border: #6dd0f3 1px solid;
+    border-radius: 2px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.sub-jigsaw-info dl dd{
+    float: right;
+    width: 94px;
+}
+.sub-jigsaw-info dl dd span{
+    display: block;
+    line-height: 25px;
+	width:90px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.sub-jigsaw-info dl dd span em{
+	padding-left:3px;
+}
+.diff-info{
+    margin-top: 7px;
+}
+.diff-info dt{
+    margin-top: 2px;
+    padding-left: 8px;
+}
+.jigsaw-rule{
+    margin-top: 15px;
+    height: 145px;
+    background: url("../images_2.5/newIndex/bg_jigsaw02.png") 0 0 no-repeat;
+	padding-top:60px;
+	padding-left:20px;
+		color: #818181;
+	font-family:"宋体";
+	font-size: 14px;
+	line-height:150%;
+}
+#times{
+    color: #6dd0f3;
+    font-size: 24px;
+    font-family: arial;
+    padding-left:120px;
+    padding-top: 46px;
+    display: block;
+}
+.sub-jigsaw-info button{
+    width: 154px;
+    height: 64px;
+    border: 0;
+    display: block;
+    margin-top: 24px;
+    margin-left: 24px;
+    background: url("../images_2.5/newIndex/icon-start01.png") 0 0 no-repeat;
+}
+.sub-jigsaw-info button:hover{
+    background: url("../images_2.5/newIndex/icon-start02.png") 0 0 no-repeat; cursor:pointer;
+}
+#popup_message h2{
+	text-align:center;
+}
+button.cancel{
+    display: none;
+    background: url("../images_2.5/newIndex/icon-back01.png") 0 0 no-repeat;
+}
+button.cancel:hover{
+    background: url("../images_2.5/newIndex/icon-back02.png") 0 0 no-repeat;cursor:pointer;
+}
+.rank{
+    width: 979px;
+    height: 272px;
+    margin-top: 10px;
+    background: url("../images_2.5/bg_rank.png") 0 0 no-repeat;
+}
+.rank-info{
+    float: left;
+    position: relative;
+    width: 160px;
+    margin-top: 42px;
+    margin-left: 30px;
+}
+.rank-info h3{
+    width: 137px;
+    height: 27px;
+    background: url("../images_2.5/bg_zf.png") 0 0 no-repeat;
+    font-size: 16px;
+    font-family: "arial";
+    color: #e8690b;
+    position: absolute;
+    top:20px;
+    left: 0;
+    z-index: 4;
+    padding-top: 6px;
+}
+.rank-info h3 em{
+    padding: 8px 60px 0 8px;
+    display: inline-block;
+    font-size: 12px;
+    color: #925a0b;
+    vertical-align: top;
+}
+.rank-info .user-img{
+    margin-left:36px;
+    margin-top: 72px;
+    width: 83px;
+    height: 83px;
+}
+.rank-info .user-zz{
+    width: 160px;
+    height: 156px;
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 33px;
+    left: 0;
+    background: url("../images_2.5/yx_zz01.png") 0 0 no-repeat;
+}
+.rank-info .user-zz02{
+    top: 46px;
+    left: 16px;
+    background: url("../images_2.5/yx_zz02.png") 0 0 no-repeat;
+}
+.rank-info .user-ch{
+    width: 84px;
+    height: 22px;
+    position: absolute;
+    z-index: 3;
+    top: 142px;
+    left: 36px;
+}
+.user-name{
+    height: 26px;
+    padding-left: 5px;
+    background: url("../images_2.5/bg_nL.png") 0 0 no-repeat;
+    position: absolute;
+    top: 176px;
+    left: 30px;
+    z-index: 4;
+}
+.user-name span{
+    float: left;
+    line-height: 26px;
+    color: #91340a;
+    font-size: 14px;
+    background: url("../images_2.5/bg_nM.png") 0 0 repeat-x;
+}
+.user-name label{
+    float: left;
+    width: 6px;
+    height: 26px;
+    background: url("../images_2.5/bg_nR.png") 0 0 no-repeat;
+}
+.rank-click{
+    width: 38px;
+    height: 115px;
+    position: absolute;
+    top: 450px;
+    right: -50px;
+    background: url("../images_2.5/icon_rank.png") 0 0 no-repeat;
+}
+.marquee{
+    margin-top: 20px;
+    line-height: 30px;
+    background: #fff;
+    color: #1fc1fa;
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+}
+.marquee span{
+    margin-right: 10px;
+}
+.marquee em{
+    color: #ff8124;
+    font-style:normal;
+    padding-left: 2px;
+}

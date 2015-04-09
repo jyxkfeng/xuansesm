@@ -1,0 +1,9 @@
+body{ min-width:1008px;}
+.content{ width:100%; background:url(../images_2.5/infocontbg.fw.png) no-repeat center 163px; min-width:1008px;}
+.uitag{ width:1008px; height:25px; margin:0 auto; border-bottom:1px solid #e7e6e6; background:#f2f2f2;}
+.uitag ul{ margin-left:43px;}
+.uitag ul li{ width:90px; height:17px; float:left; }
+.uitag ul li a{ width:70px; padding-left:10px; padding-right:10px; border-right:1px solid #35383F; }
+.uitag ul li a.nobr{border-right:none}
+
+.uitable{ width:1008px; height:465px; margin:0 auto; background:#FBFAF9; }

@@ -1,0 +1,70 @@
+/**
+ * Created by vincent on 14-4-28.
+ */
+*{margin:0;padding:0}
+ol,ul{list-style:none}
+.clearfix:after {content: "."; display: block;height: 0;clear: both; visibility: hidden;}
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+body{ background: url("../images_2.5/bg_phone_sz.jpg") center 0 no-repeat;}
+#content{ width: 800px; margin: 0 auto;}
+.light{width: 800px;height: 30px;margin: 10px auto;}
+.light-even{background:url('../images_2.5/newIndex/bg_phone_light.png') center 0 no-repeat;}
+.light-odd{background:url('../images_2.5/newIndex/bg_phone_light_d.png') center 0 no-repeat;}
+.main{width: 640px;height: 366px;margin: 0 auto;padding-top: 15px;position: relative;}
+.saizi-style{ width: 320px; height: 123px; background: url('../images_2.5/bg_phone_saizi.jpg') 0 0 no-repeat;position: absolute;top:137px;left:160px;}
+.main ul{width: 640px;margin: 0 auto; position: relative;}
+.main li{width: 160px;height: 122px;background:url('../images_2.5/zsz_phone_box.png') 0 0 no-repeat;position: absolute;z-index: 2;}
+.main li.onselbox{background:url('../images_2.5/zsz_phone_onbox.png') 0 0 no-repeat;}
+.main li#d_0{top: 0;left: 0;}
+.main li#d_1{top: 0;left: 160px;}
+.main li#d_2{top: 0;left: 320px;}
+.main li#d_3{top: 0;left: 480px;}
+.main li#d_4{top: 122px;left: 480px;}
+.main li#d_5{top: 244px; left: 480px;}
+.main li#d_6{top: 244px;left: 320px;}
+.main li#d_7{top: 244px;left: 160px;}
+.main li#d_8{top: 244px; left: 0;}
+.main li#d_9{top: 122px;left: 0;}
+#dice{ cursor:pointer;position: absolute;top: 170px;left: 230px; z-index: 2;}
+#dice span{ width:90px;height:90px;float:left;background-image:url('../images_2.5/dice.png'); background-repeat: no-repeat;}
+#dice span.dice-1{background-position:-5px -4px}
+#dice span.dice-2{background-position:-5px -107px}
+#dice span.dice-3{background-position:-5px -212px}
+#dice span.dice-4{background-position:-5px -317px}
+#dice span.dice-5{background-position:-5px -427px}
+#dice span.dice-6{background-position:-5px -535px}
+#dice span.dice-t{background-position:-5px -651px}
+#dice span.dice-s{background-position:-5px -763px}
+#dice span.dice-e{background-position:-5px -876px}
+#dice_mask{width:200px;height:100px;background:#fff; opacity:0;filter:alpha(opacity=0);position:absolute;top: 225px;left: 440px;z-index:3;}
+.mask{opacity: 0.6;filter:alpha(opacity=60);width: 260px;height: 122px;background:url('../images_2.5/phone-onsel.png') 0 0 no-repeat; z-index:3;position:absolute;top:0;left:0;text-align:center;}
+.dialog-style{width: 590px;margin: 0 auto; background: none;text-align: center;color: #fff;}
+.dialog-style h4{font-size: 21px;font-family: '微软雅黑'; font-weight: normal;line-height: 35px;}
+.dialog-style span{font-size: 12px;line-height: 25px;display: block;}
+.dialog-style img{margin: 30px 0;width: 300px; height: 210px;}
+.dialog-style p{ font-size: 25px; font-family: '微软雅黑';line-height: 50px;}
+.dialog-style p em{color: #c37b08; font-style: normal;}
+.dialog-style a.btu{ width: 215px; margin: 0 auto; margin-top: 20px; font-size: 21px; font-family: '微软雅黑'; line-height: 50px;display: block; background: #c37b08;color: #fff;text-decoration: none;}
+.dialog-style a.close{width: 17px; height: 15px; display:block; background: url(../images_2.5/bg_dialog_close.png) 0 0 no-repeat;position: absolute;top: 0;right: 100px;}
+#content{ position: relative; overflow: hidden;}
+.right-fixed{ width: 174px; height: 423px; background: url('../images_2.5/newIndex/bg_phone_szr01.png') 0 0 no-repeat; position:absolute;top:0; right: -134px; z-index: 3;}
+.right-fixed li{ padding-top:24px; padding-left: 72px;}
+.right-fixed li a{color: #963710; font-family: '微软雅黑'; text-decoration:none; font-size: 16px; text-align: center; width: 64px; line-height: 58px;display: block;}
+.luck-list, .phone-gz{width: 174px; height: 423px; background: url('../images_2.5/newIndex/bg_phone_szr02.png') 0 0 no-repeat; position:absolute;top:0; right: -174px; z-index: 2;}
+.luck-list h3, .phone-gz h3{ padding-top:40px;font-size: 16px; color: #963710; padding-left: 80px;}
+#luckId{ height:350px; overflow:hidden;}
+.luck-list ul{ width: 130px; padding-left: 46px; margin-top: 20px;}
+.luck-list li{ position: relative; padding-top: 10px;}
+.luck-list img{ width: 26px; height: 26px; float: left; margin-top: 14px;}
+/*
+.luck-list .zz03{ width: 26px; height: 26px; background: url('../images_2.5/newIndex/bg_zz01.png') 0 0 no-repeat; display: block; top: 0;left: 0;}*/
+.luck-info{ float: right; width: 95px; padding-right: 2px; line-height: 18px; text-align: left; font-size: 12px; overflow: hidden; text-overflow: ellipsis;white-space: nowrap; right:0}
+.luck-info h4{ font-weight: normal;}
+.luck-info span{ display: block; color: #b9b9b9;}
+.luck-info span em{ color: #f57923; font-style: normal; padding-left: 2px;}
+.phone-gz{width: 264px; background: url('../images_2.5/newIndex/bg_phone_szr03.png') 0 0 no-repeat;right:-264px;}
+.phone-gz h3{ padding-left: 114px;}
+.phone-gz div{ width:180px; padding-left: 75px; padding-top: 20px;}
+.phone-gz p{ font-size: 12px; color: #c17908; line-height: 16px; padding-top: 20px;}

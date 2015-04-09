@@ -1,0 +1,398 @@
+/**
+ * Created by vincent on 14-4-28.
+ */
+*{margin:0;padding:0}
+ol,ul{list-style:none}
+.clearfix:after {content: "."; display: block;height: 0;clear: both; visibility: hidden;}
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+#header{
+    height: 35px;
+    background: #f7f7f7;
+    border-bottom: #eee 1px solid;
+    line-height: 35px;
+    font-size: 12px;
+    color: #666;
+}
+.main-head-info{
+   width: 1008px;
+    
+    margin: 0 auto;
+}
+.main-head-info a{
+    text-decoration: none;
+    color: #666;
+	float:left;
+}
+.main-head-info a:hover{
+    text-decoration: underline;
+}
+.main-head-info span{
+    margin-right: 5px;
+}
+.main-head-info .bindex{
+    float: left;
+    padding-left: 15px;
+    background: url("../images_2.5/bg_sc.png") 0 12px no-repeat;
+}
+.main-head-info ul{
+    float: right;
+	width:300px;
+}
+.main-head-info ul li{
+    float: left;
+    margin-right: 5px;
+}
+.main-head-info ul li.bR{
+    color: #ddd;
+}
+.footer-info{
+    width: 1008px;
+        margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.footer-info ul{
+    margin:20px 0 10px 350px;
+}
+.footer-info li{
+    float: left;
+    font-size: 14px;
+    line-height: 35px;
+    margin-right: 10px;
+}
+.footer-info li a{
+    color: #848484;
+    text-decoration: none;
+}
+.footer-info li a:hover{
+    text-decoration: underline;
+}
+.footer-info p{
+    font-size: 12px;
+    line-height: 22px;
+    color: #848484;
+}
+#content{
+    background:#de911b url('../images_2.5/bg_saizibody.jpg') center -1px no-repeat;
+}
+.main-head{
+    width: 1008px;
+   
+    height: 182px;
+    background:url('../images_2.5/bg_saizi01.jpg') center top no-repeat;
+    margin: 0 auto;
+    
+}
+.main-top{
+    width: 1008px;
+ 
+    height: 160px;
+    background:url('../images_2.5/bg_saizi02.jpg') center top no-repeat;
+    margin: 0 auto;
+}
+.light{
+    width: 1008px;
+   
+    height: 106px;
+    background:url('../images_2.5/bg_saizi03.jpg') center top no-repeat;
+    margin: 0 auto;
+}
+.light-info{
+     width: 799px;
+     height: 61px;
+     margin-left: 110px;
+     background:url('../images_2.5/bg_light.png') center -4px no-repeat;
+ }
+.light-even{
+    background:url('../images_2.5/bg_lighting.png') center -4px no-repeat;
+}
+.light-odd{
+    background:url('../images_2.5/bg_lighting2.png') center -4px no-repeat;
+}
+
+.main{
+    width: 1008px;
+   
+    height: 518px;
+    background:url('../images_2.5/bg_saizi04.jpg') center top no-repeat;
+    margin: 0 auto;
+    padding-top: 15px;
+    position: relative;
+}
+.saizi-style{
+    width: 414px;
+    height: 158px;
+    background: url('../images_2.5/bg_saizi.jpg') 0 0 no-repeat;
+    position: absolute;
+    top:173px;
+    left:297px;
+}
+.main ul{
+    width: 828px;
+    margin: 0 auto;
+    position: relative;
+}
+.main li{
+    width: 207px;
+    height: 158px;
+    background:url('../images_2.5/box.png') 0 0 no-repeat;
+    position: absolute;
+    z-index: 2;
+}
+.main li.onselbox{
+    background:url('../images_2.5/bg_onselbox.png') 0 0 no-repeat;
+}
+.main li#d_0{
+    top: 0;
+    left: 0;
+}
+.main li#d_1{
+    top: 0;
+    left: 207px;
+}
+.main li#d_2{
+    top: 0;
+    left: 414px;
+}
+.main li#d_3{
+    top: 0;
+    left: 621px;
+}
+.main li#d_4{
+    top: 158px;
+    left: 621px;
+}
+.main li#d_5{
+    top: 316px;
+    left: 621px;
+}
+.main li#d_5{
+    top: 316px;
+    left: 621px;
+}
+.main li#d_6{
+    top: 316px;
+    left: 414px;
+}.main li#d_7{
+     top: 316px;
+     left: 207px;
+ }
+.main li#d_8{
+    top: 316px;
+    left: 0;
+}
+.main li#d_9{
+    top: 158px;
+    left: 0;
+}
+#dice{
+    cursor:pointer;
+    position: absolute;
+    top: 229px;
+    left: 450px;
+    z-index: 2;
+
+}
+#dice span{
+    width:90px;
+    height:90px;
+    float:left;
+    background-image:url('../images_2.5/dice.png');
+    background-repeat: no-repeat;
+}
+#dice span.dice-1{background-position:-5px -4px}
+#dice span.dice-2{background-position:-5px -107px}
+#dice span.dice-3{background-position:-5px -212px}
+#dice span.dice-4{background-position:-5px -317px}
+#dice span.dice-5{background-position:-5px -427px}
+#dice span.dice-6{background-position:-5px -535px}
+#dice span.dice-t{background-position:-5px -651px}
+#dice span.dice-s{background-position:-5px -763px}
+#dice span.dice-e{background-position:-5px -876px}
+#dice_mask{
+    width:200px;
+    height:100px;
+    background:#fff;
+    opacity:0;
+    filter:alpha(opacity=0);
+    position:absolute;
+    top: 225px;
+    left: 440px;
+    z-index:3;
+}
+.mask{
+    opacity: 0.6;
+    filter:alpha(opacity=60);
+    width: 207px;
+    height: 158px;
+    background:url('../images_2.5/onsel.png') 0 0 no-repeat;
+    z-index:3;
+    position:absolute;
+    top:0;
+    left:0;
+    text-align:center;
+}
+.main-bto{
+    width: 1008px;
+    
+    height: 180px;
+    background:url('../images_2.5/bg_saizi05.jpg') center top no-repeat;
+    margin: 0 auto;
+}
+
+.main-reg{
+    width: 1008px;
+   height: 247px;
+    background:url('../images_2.5/bg_saizi06.jpg') center top no-repeat;
+    margin: 0 auto;
+}
+.main-reg p{
+    color: #c17908;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+    width: 115px;
+    float: left;
+    margin-top:80px;
+    padding-left: 15px;
+    padding-right: 90px;
+}
+.main-reg p.last{
+    width: 100px;
+    padding-right: 0;
+}
+.dialog-style{
+    width: 590px;
+    margin: 0 auto;
+    background: none;
+    text-align: center;
+    color: #fff;
+}
+.dialog-style h4{
+    font-size: 21px;
+    font-family: '微软雅黑';
+    font-weight: normal;
+    line-height: 35px;
+}
+.dialog-style span{
+    font-size: 12px;
+    line-height: 25px;
+    display: block;
+}
+.dialog-style img{
+    margin: 30px 0;
+    width: 300px;
+    height: 210px;
+}
+.dialog-style p{
+    font-size: 25px;
+    font-family: '微软雅黑';
+    line-height: 50px;
+}
+.dialog-style p em{
+    color: #c37b08;
+    font-style: normal;
+}
+.dialog-style a.btu{
+    width: 215px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 21px;
+    font-family: '微软雅黑';
+    line-height: 50px;
+    display: block;
+    background: #c37b08;
+    color: #fff;
+    text-decoration: none;
+}
+.dialog-style a.close{
+    width: 17px;
+    height: 15px;
+    display:block;
+    background: url(../images_2.5/bg_dialog_close.png) 0 0 no-repeat;
+    position: absolute;
+    top: 0;
+    right: 100px;
+}
+.luck-list{
+    width: 306px;
+    background: url('../images_2.5/bg_luck01.png') 0 0 no-repeat;
+    font-size: 12px;
+    line-height: 20px;
+    position: fixed;
+    top: 100px;
+    right: 30px;
+    padding-top:129px;
+    padding-left:32px;
+    z-index: 2;
+}
+.luck-top{
+    width: 250px;
+    height: 35px;
+    display: block;
+    background: url('../images_2.5/bg_luckhead.png') 0 0 no-repeat;
+    padding-bottom: 5px;
+}
+.luck-head{
+    width: 250px;
+    height: 350px;
+    overflow: hidden;
+    background: url('../images_2.5/bg_luck02.png') 0 0 repeat-y;
+}
+.luck-style{
+    border-bottom: #f7e8cf 1px solid;
+    padding: 8px 0;
+    margin: 0 20px;
+    margin-right: 25px;
+	position:relative;
+}
+.luck-style img{
+    float: left;
+    width: 44px;
+    height: 44px;
+    margin-right:10px;
+
+}
+.luck-style i{ width:44px; height:44px; background:url(../images_2.5/newIndex/bg_zz04.png); position:absolute; top:8px; left:0px;}
+.luck-style dl{
+    float: left;
+    width: 90px;
+    color: #939393;
+}
+.luck-style dl dt{
+    color: #414141;
+}
+.luck-style dl em{
+    font-style: normal;
+    color: #f57923;
+}
+.luck-style span{
+    float: left;
+    color: #b9b9b9;
+}
+.luck-bot{
+    width: 250px;
+    height: 28px;
+    display: block;
+    background: url('../images_2.5/bg_luck03.png') 0 0 no-repeat;
+}
+.luck-head-pos{
+    position: absolute;
+    top: 128px;
+    left: 28px;
+    z-index: 2;
+}
+.click-button{
+    width: 310px;
+    height: 20px;
+    position: absolute;
+    top: 110px;
+    left: 0;
+    cursor: pointer;
+}
+#luckList{
+    height: 316px;
+    overflow: hidden;
+}

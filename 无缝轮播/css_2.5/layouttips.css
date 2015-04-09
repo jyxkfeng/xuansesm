@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* 弹窗事件css */
+a {
+	color:#373737;
+	text-decoration:none;
+}
+i{ font-style:normal;}
+.tipwrap{ width:550px; height:320px;  background:url(../images/bg1.png);  margin:0 auto; position:absolute; display:none; z-index:9999;}
+.tipcont{ width:518px; height:288px; position:relative; left:15px; top:15px; background:#FFF; border:1px solid #eee;}
+.tipcont .title{ width:518px; height:40px; border-bottom:1px solid #eee; line-height:40px;}
+.tipcont .title span{ float:left; width:480px; height:40px;font-size:14px;font-weight:bold;color:rgb(175,175,175); padding-left:10px; text-align:center;}
+.tipcont .title a{ float:left; width:18px; height:17px; margin-top:16px; margin-right:10px; line-height:40px; background:url(../images/tip.png) -107px 0px;}
+.tipwrap .body{ width:480px; height:130px; margin:0 auto; margin-top:23px;}
+.tipwrap .body .l{ width:100px; height:116px; float:left; margin-left:53px;}
+.tipwrap .body .r{ width: 420px;height: 116px;float: left;margin-left: 30px; margin-top:30px;}
+.tipwrap .body .r .tt{ width:420px; height:30px; margin:0 auto;font-size:18px;}
+.tipwrap .body .r .bd{font-size:12px;color:rgb(109,109,109); padding-right:10px; padding-top:10px;}
+.tipwrap .body .r .bd b{  font-weight:normal;}
+.tipwrap .body .r .select{font-size:12px;color:rgb(109,109,109); padding-left:10px; padding-right:10px; padding-top:10px;}
+.tipwrap .body .r .select select{ width:250px; height:30px; line-height:30px; border:solid 1px #eeeeee; text-align:center;}
+.tipwrap .body .r .select select option{width:250px; height:30px; line-height:30px; border:solid 1px #eeeeee;}
+.tipwrap .body .r .select a{ padding-left:10px; color:#63A3EA}
+.tipwrap .tipcont .bt{font-size:12px;color:rgb(109,109,109);  padding-right:10px; padding-top:10px; }
+.tipwrap .tipcont .bt a{ background:#63A3EA; color:#FFF; padding:10px; padding-left:20px; padding-right:20px;  height:29px; line-height:29px; height:29px; cursor:pointer;}
+
+.tipwrap3{ width:480px; height:320px;  background:url(../images/bg1.png);  margin:0 auto; position:absolute; display:none; z-index:9999;}
+.tipwrap3 .tipcont{ width:448px; height:288px; position:relative; left:15px; top:15px; background:#FFF; border:1px solid #eee;}
+.tipwrap3 .tipcont .title{ width:448px; height:40px; border-bottom:1px solid #eee; line-height:40px;}
+.tipwrap3 .tipcont .title span{ float:left; width:400px; height:40px;font-size:14px;font-weight:bold;color:rgb(175,175,175); padding-left:10px; text-align:center;}
+.tipwrap3 .tipcont .title a{ float: left;width: 18px;height: 21px;padding-top: 15px;padding-right: 10px;line-height: 40px;background: url(../images/tip.png) -97px 12px;margin-right: 0px; margin-top:0px; padding-left:10px;}
+.tipwrap3 .body{ width:448px; height:130px; margin:0 auto; margin-top:23px;}
+.tipwrap3 .body .l{ width:100px; height:116px; float:left; margin-left:53px;}
+.tipwrap3 .body .r{ width: 350px;height: 116px;float: left;margin-left: 30px; margin-top:30px;}
+.tipwrap3 .body .r .tt{ width:350px; height:30px; margin:0 auto;font-size:18px;}
+.tipwrap3 .body .r .bd{font-size:12px;color:rgb(109,109,109); padding-right:10px; padding-top:10px;}
+.tipwrap3 .body .r .bd b{  font-weight:normal;}
+.tipwrap3 .body .r .select{font-size:12px;color:rgb(109,109,109); padding-left:10px; padding-right:10px; padding-top:10px;}
+.tipwrap3 .body .r .select select{ width:250px; height:30px; line-height:30px; border:solid 1px #eeeeee; text-align:center;}
+.tipwrap3 .body .r .select select option{width:250px; height:30px; line-height:30px; border:solid 1px #eeeeee;}
+.tipwrap3 .body .r .select a{ padding-left:10px; color:#63A3EA}
+.tipwrap3 .tipcont .bt{font-size:12px;color:rgb(109,109,109);  padding-right:10px; padding-top:10px; }
+.tipwrap3 .tipcont .bt a{ background:#63A3EA; color:#FFF; padding:10px; padding-left:20px; padding-right:20px;  height:29px; line-height:29px; height:29px; cursor:pointer;}

@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+.clearme:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+
+* html .clearme {height: 1%;}
+ins{ display:none;}
+.m-right0{margin-right:0px !important;}
+.m-top20{ margin-top:20px;}
+.m-right36{margin-right:36px;}
+.m-top37{margin-top:37px;}
+
+/* 任务公用按钮*/
+
+/*   晒单    */
+.share-wrap{ width:479px; margin:0 auto;}
+.share-wrap .title{ background:url(../images_2.5/sharebg1.fw.png) no-repeat left center; width:479px; height:23px; margin:0 auto;}
+.share-wrap .body{ width:479px; height:245px; margin:0 auto; border:1px solid #DCDCDE; position:relative;}
+.share-wrap .body textarea{width:479px; height:170px; margin:0 auto; resize:none; border:none; border:0; line-height: 24px;text-indent: 12px;}
+.share-wrap .body  .lessnum{ text-align:right; position:absolute; left:350px; bottom:80px;}
+.share-wrap .body .imglist{width:479px; height:73px; margin:0 auto; overflow:hidden; border-top:1px dashed #DCDCDE; background:#f8f8f8;}
+.share-wrap .body .imglist img{ width:80px; height:60px; display:inline-block; margin-left:6px; margin-top:6px;}
+.share-wrap .body .imglist .img{ width:80px; height:60px; margin-left:6px; margin-top:6px; float:left; position:relative; display:none;}
+.share-wrap .body .imglist .img:hover .imgbt{ display:block;}
+.share-wrap .body .imglist .imgbt{ width:80px; height:60px; background:#000; opacity:0.7; filter:alpha(opacity=70);   display:none;}
+.share-wrap .body .imglist .imgbt .update{ background:url(../images_2.5/up-dl.fw.png) no-repeat 0px -25px; width:20px; height:20px; position:absolute; right:25px;top:0px; cursor:pointer;}
+.share-wrap .body .imglist .imgbt .update:hover{background:url(../images_2.5/up-dl.fw.png) no-repeat -25px -25px;}
+.share-wrap .body .imglist .imgbt .delete{background:url(../images_2.5/up-dl.fw.png) no-repeat 0px 0px; width:20px; height:20px; position:absolute; right:0px;top:0px;cursor:pointer;}
+.share-wrap .body .imglist .imgbt .delete:hover{ background:url(../images_2.5/up-dl.fw.png) no-repeat -25px 0px;}
+.share-wrap .body .imglist .addimg{width:80px; height:60px; display:block; float:left; margin-left:6px; margin-top:6px; background:url(../images_2.5/addimg.fw.png) center center; cursor:pointer; display:none;}
+.share-wrap .body .imglist .addimg span{ margin-top:35px; text-align:center; width:80px; height:20px; display:block;}
+.share-wrap .ft{ width:479px; height:40px; margin:0 auto;}
+.share-wrap .ft .addimgbtn{ background:url(../images_2.5/addimgbg.fw.png) no-repeat  left center; width:88px; line-height:32px; height:32px;text-indent:25px; cursor:pointer;}
+.share-wrap .ft .submitbtn{ border:none; background:#D8230E; width:62px; height:28px; text-align:center; line-height:28px; margin-top:10px; color:#FFF;cursor:pointer; }

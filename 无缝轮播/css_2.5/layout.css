@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* global */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{padding:0;margin:0;}
+body{color:#7f7f7f; }
+html,body{-webkit-text-size-adjust:none;font-family:Arial, Helvetica, sans-serif,宋体;}
+body{font-family:Arial, Helvetica, sans-serif,宋体; font-size:12px;}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+address,caption,cite,code,dfn,em,th,var{font-weight:normal;font-style:normal}
+strong, b{ font-weight: bold; }
+ol,ul,dl{list-style:none;padding:0;margin:0;}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-weight:700;}
+h1{font-size:18px}
+h2{font-size:16px}
+h3{font-size:14px}
+h4{font-size:14px}
+h5{font-size:12px;color:#fff;}
+h6{font-size:12px}
+img{ vertical-align:bottom;}
+a{ text-decoration:none;}
+q:before,q:after{content:''}
+.fleft{float:left}
+.fright{float:right}
+.mar-auto{margin:0 auto;}
+.w1190{width:1190px;}
+.w1008{width:1200px; min-height:600px;}
+.mbottom{margin-bottom:8px;}
+.clear{clear:both;}
+
+
+.leftwrap{ width:218px;}
+.sidemenu h4{ background:url(../images/quetit.png) no-repeat; height:44px;  line-height:40px;padding-left:27px;}
+.sidemenu ul.firstul{margin-top:-5px;width: 208px; background:#faf9f9; margin-left:8px;border:1px solid #e1e1e1;  padding-bottom:10px;  overflow:hidden;}
+.sidemenu ul.firstul li{width: 208px; *background:url(../images/li_bg2.jpg) no-repeat 0px 3px; border-bottom:1px solid #e5e5e5;line-height:34px;}
+.sidemenu ul.firstul li a{ 
+	font-weight:bold; padding-left:40px;
+	 font-size:13px; color:#676767; 
+	 display:block;line-height:34px;
+	 height:34px;
+	border-bottom: 1px dashed #e5e5e5;
+	
+}
+.sidemenu ul.firstul li .help-a{
+	background:url(../images/sj1.png) no-repeat 46px 15px;
+	padding-left: 58px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.sidemenu ul.firstul li ul li{  
+	border-bottom: 1px dashed #e5e5e5;
+    height: 34px;
+    line-height: 34px;
+    margin: 0 20px;
+    width: 168px;}
+ .sidemenu ul.firstul li ul li:last-child{
+ 	border-bottom:0;
+ }   
+  .sidemenu ul.firstul li ul li.bianse a{
+color:#cc251b;
+  }
+.sidemenu ul.firstul li ul li a{ color:#8c8c8c; font-size:12px; font-weight:normal;}
+.sidemenu ul.firstul li ul li a:hover,.sidemenu ul.firstul li ul li a.hover{
+	color:#cc251b;
+}
+
+
+.rightwrap{ width:971px; }
+.rightwrap .rightit{
+
+ background: none repeat scroll 0 0 #faf9f9;
+    border: 1px solid #e1e1e1;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    height: 37px;
+    line-height: 37px;
+    padding-left: 18px;
+}
+.rightcon{border:1px solid #e1e1e1; border-top:none; overflow:hidden;background:#faf9f9; padding:25px; overflow:hidden;width:919px;min-height:492px; }
+
+.feedbackwrap .text{width:150px;padding-left:7px; height:32px; line-height:32px; background:#fff; color:#a9a9a9; border:1px solid #d9d9d9;}
+.feedbackwrap span.cnm{text-align:right;width:150px; display:block; float:left;height:32px; line-height:32px; color:#a9a9a9; }
+.feedbackwrap b.star{ font-weight:normal; height:22px; margin-top:10px; position:relative; top:5px; line-height:32px; color:#e75258; font-family:Arial, Helvetica, sans-serif; font-size:18px;}
+.feedbackwrap span.cnm i{font-weight:normal; height:32px; line-height:32px;  font-family:Arial, Helvetica, sans-serif; font-size:13px;}
+.username,.contact,.stylewrap,.content textarea{ margin-bottom:25px;}
+.username{ margin-top:30px;}
+.contact{ color:#63a3ea;}
+#style{ border:1px solid #d9d9d9;height:32px; line-height:32px;width:159px;padding-left:7px;color:#a9a9a9;}
+.feedbackwrap .submit{ margin-top:30px; background:#e75258; border:none; color:#fff; padding:8px 25px; font-size:14px; margin-left:150px; cursor:pointer; float:left;}
+.content .cnm{ line-height:120px; float:left; height:120px;}
+.content textarea{ padding-left:7px; padding-top:10px;border:1px solid #d9d9d9;height:120px; width:329px;  float:left;}
+.content .nmb{ line-height:120px; float:left; height:120px;}
+.code{ }
+.code a{ color:#63a3ea; text-decoration:underline; margin-left:15px;}
+.code img{ margin-left:10px;}
+
+#style option{ height:30px; line-height:30px;}

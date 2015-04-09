@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+ .right{float: right}
+	.gy-dialog{ }
+    .gy-dialog { position:relative;background:#FFF; }
+	 .gy-dialog2{ width:auto !important;}
+    .gy-dialog .title2{ height:40px; border-bottom:1px solid #eee; line-height:40px;}
+    .gy-dialog .title2 span{ float:left; width:472px; height:40px;font-size:14px;font-weight:bold;color:#3a3b40; padding-left:10px;}
+    .gy-dialog .title2 a{ float:left; width:18px; height:17px; margin-top:16px; line-height:40px; background:url(../images/tip.png) -107px 0px;cursor:pointer; float:right;}
+    .gy-dialog .body2{ width:502px; margin:0 auto; margin-top:20px;}
+    .gy-dialog .body2 .l{ width:150px; height:105px; float:left; margin-top:15px;}
+    .gy-dialog .body2 .l img{width: 150px;height: 105px;}
+    .gy-dialog .body2 .r{ width:502px;}
+    .gy-dialog .body2 textarea{width:480px;height:95px; border:1px solid #f0f0f0; line-height: 20px; padding:8px 10px 0px 10px;}
+    .gy-dialog .body2  p{font-size:12px;color:#898989;margin-top:20px; margin-bottom:20px;}
+    .gy-dialog .body2  .title{font-size:22px;color:rgb(99,163,233);width:327px;height: 22px; line-height:22px; border:none; text-align:left; }
+    .gy-dialog .body2  .tel{font-size:14px;color:rgb(115,115,115);}
+	.gy-dialog .body2 .inline{ margin-bottom:5px; text-align:right; margin-top:5px;}
+	.gy-dialog .body2 .inline b{ color:#F00; font-weight:normal;}
+    .gy-dialog .body3{ width:502px; height:22px; margin:0 auto; margin-top:5px; }
+    .gy-dialog .body3 .l{ width:150px; height:98px; float:left; margin-top:15px;}
+    .gy-dialog .body3 .l p{font-size:14px;color:rgb(115,115,115); text-align:center; color:#F00;}
+    .gy-dialog .body3 .l p .tiptime{font-size:14px;color:rgb(175,175,175); padding-left:30px; width:100px; height:30px; line-height:30px; background:url(../images/tip.png)-107px -18px no-repeat; display:block; text-align:left; }
+    .gy-dialog .body3 .r{ width:307px; height:98px; float:left; margin-left:20px;}
+    .gy-dialog .body3 .r a{ width:83px; height:34px; border:1px solid #CCC; float:left; margin-left:10px; margin-top:10px; text-align:center; line-height:34px;}
+    .gy-dialog .body3 .r a.hover,.gy-dialog .body3 .r a:hover{ background:#E75258; color:#FFF;}
+    .gy-dialog .body3 .r .bt{ background:#63A3EA; width:60px; height:28px; line-height:28px; float:left; margin-left:100px; color:#FFF;}
+    .gy-dialog .body3 .r .bt:hover,.gy-dialog .body3 .r .bt.hover{background:#63A3EA;}
+    .gy-dialog .body3 .share{ width:520px; height:22px; margin:0 auto; margin-top:15px;}
+    .gy-dialog .body3 .share span{ float:left; line-height:22px;}
+    .gy-dialog .body3 .share a{ margin-left:3px;}
+    .gy-dialog .body3 .share .qq{ width:35px; height:35px; display:block; float:left; background:url(../images_2.5/qqbg.fw.png) left top;}
+    .gy-dialog .body3 .share .weibo{ width:35px; height:35px; display:block; float:left;background:url(../images_2.5/sinabg.fw.png) left top;}
+    .gy-dialog .body3 .share .qq2{cursor: pointer; width:35px; height:35px; display:block; float:left; background:url(../images_2.5/qqbg.fw.png) left bottom;}
+    .gy-dialog .body3 .share .weibo2{cursor: pointer; width:35px; height:35px; display:block; float:left;background:url(../images_2.5/sinabg.fw.png) left bottom;}
+    .gy-dialog .body3 .share .sharebt{ float:right; width:65px; height:25px; line-height:25px; text-align:center; display:block; background:#d9230e; color:#FFF; margin-top:15px; font-size: 14px;cursor: pointer;}
+
+
+    .title2 span{color: #363940; font-size: 14px;}
+    .tupian{ width:502px; padding-bottom:20px; border-bottom:2px solid #eeeded; margin-left:25px; }
+	.tupian .h5{ height:17px; padding-bottom:8px;}
+    .zhezhao-item{width: 118px; height: 83px; overflow: hidden; display: inline-block; position: relative; margin-right:5px; float:left; border:1px solid #eeeeee;}
+	.zhezhao-item img{width: 110px; height:79px; padding:2px; padding-left:4px; padding-right:4px;}
+    .zhezhao{position: absolute;top:0;left: 0; background: url("../images_2.5/waikuang.png") no-repeat;z-index: 2;width: 118px; height: 83px; display:none;}
+    .h5{color: #363940;font-weight: normal;}
+	/*#popup_panel{ display:none;}*/
+	#popup_title{ display:none;}
+	#popup_panel{ text-align:right; }
+	#popup_ok{ text-align:center; line-height:38px; padding-left:25px; padding-right:25px; font-size:14px; margin-right:15px;}
+	.popup_share{ position:relative; top:-10px; margin-left:15px; right:15px;}

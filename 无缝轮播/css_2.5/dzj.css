@@ -1,0 +1,10 @@
+/**
+ * Created by vincent on 14-5-28.
+ */
+.dzj-top{ width: 226px; margin: 0 auto; margin-top: 190px; font-size: 18px; font-family: '微软雅黑';color: #898989; line-height: 50px; text-align: center;}
+.dzj-main{ width: 677px; height: 143px; padding-top: 37px; padding-left: 123px; margin: 0 auto; margin-top: 76px; background: url("../images_2.5/bg_dzj.png") center 0 no-repeat;}
+.dzj-main input{ width: 522px; color: #898989; padding: 0 2px; height: 40px; border: 0; background:none;line-height: 40px; float: left; margin-right: 10px;}
+.dzj-main button{ width: 100px; height: 41px; border: 0; background: url("../images_2.5/bg_dsubmit.png") 0 0 no-repeat; float: left;}
+.dzj-main span{ width: 526px; line-height: 30px;color: #fff; text-align: right; display: block;margin-top: -20px;}
+.dzj-bto{width: 800px; margin:0 auto; display: block; text-align: center; font-size: 14px; color: #898989; margin-top: 88px;}
+.dzj-bto a{ text-decoration: underline; color: #ca1609;}

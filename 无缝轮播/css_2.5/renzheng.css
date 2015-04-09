@@ -1,0 +1,32 @@
+.renzheng{
+    background: url("../images_2.5/renzheng.png") no-repeat 0 8px;
+    width: 59px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    line-height: 40px;
+    margin-left: 10px;
+}
+.jiebang{
+    background: url("../images_2.5/jiebang.png") no-repeat 0 8px;
+    width: 50px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    line-height: 40px;
+    margin-left: 10px;
+}
+.ready{
+    background: url("../images_2.5/ready.png") no-repeat 0 13px;
+    width: 50px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    line-height: 40px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+.none{display: none;}

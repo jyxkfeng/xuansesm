@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+.reguide-wrap{ width:562px; height:292px; position:absolute;left:412px; top:1px; background:url(../images_2.5/lindao3.fw.png) no-repeat; z-index:1000}
+.reguide-wrap .reg-bt{ width:562px; height:64px;}
+.reguide-wrap .reg-bt a{ background:url(../images_2.5/regbt2.fw.png); width:48px; height:18px; float:right; margin-top:22px; margin-right:15px;}
+.reguide-wrap .reguide-content{ width:452px; height:212px;}
+.reguide-wrap .reguide-content .txt{ width:186px; margin-top:82px; margin-left:47px;font-family:"宋体";font-size:14px;line-height:24px;color:rgb(96,96,96);}
+.reguide-wrap .reguide-content .bt{ width:70px; height:30px; background:#D8220D; color:#ffffff; margin-top:12px; margin-left:47px; line-height:30px; text-align:center;font-family:"宋体"; cursor:pointer;
+font-size:14px; display:block}
+.reguide-wrap  .closebt{ width:19px; height:19px; position:absolute; right:161px; top:79px;background:url(../images_2.5/closed-bg.fw.png) no-repeat; display:block; cursor:pointer}
+
+.buyguide-wrap{ width:629px; height:334px; position:absolute;left:56px; top:35px;background:url(../images_2.5/lindao4.fw.png) no-repeat; z-index:1000}
+.buyguide-wrap .reg-bt{ display:none;}
+.buyguide-wrap .reg-bt{ width:562px; height:64px;}
+.buyguide-wrap .reg-bt a{ background:url(../images_2.5/regbt.fw.png); width:75px; height:37px; float:right; margin-top:22px; margin-right:15px;}
+.buyguide-wrap .reguide-content{ width:452px; height:212px;}
+.buyguide-wrap .reguide-content .txt{ width:186px; margin-top:189px; margin-left:44px;font-family:"宋体";font-size:14px;line-height:24px;color:rgb(96,96,96);}
+.buyguide-wrap .reguide-content .bt{ width:70px; height:30px; background:#D8220D; color:#ffffff; margin-top:12px; margin-left:44px; line-height:30px; text-align:center;font-family:"宋体";cursor:pointer;
+font-size:14px; display:block}
+.buyguide-wrap  .closebt{ width:19px; height:19px; position:absolute; right:225px; top:118px;background:url(../images_2.5/closed-bg.fw.png) no-repeat; display:block;cursor:pointer;}
