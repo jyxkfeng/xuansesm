@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>百分比 圆圈图</title>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/crile.js"></script>
+<link type="text/css" rel="stylesheet" href="css/time_css.css" />
+</head>
+<body>
+<!--第一个圈圈-->
+<div class="game_circle1">
+	<div class="hold">
+		<div class="pie pie1"></div>
+	</div>
+	<div class="hold">
+		<div class="pie pie2"></div>
+	</div>
+	<div class="bg"> </div>
+	<div class="num2"></div>
+</div>
+
+<!--第二个圈圈-->
+<div class="game_circle2">
+	<div class="hold">
+		<div class="pie pie1"></div>
+	</div>
+	<div class="hold">
+		<div class="pie pie2"></div>
+	</div>
+	<div class="bg"> </div>
+	<div class="num2"></div>
+</div>
+<script type="text/javascript">
+$('.game_circle1').jcountDown({num1:'45'});//第一圈圈
+$('.game_circle2').jcountDown();//第二圈圈 没有传值 使用defaults默认值
+</script>
+
+</body>
+</html>
